@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <View android:layout_width="fill_parent" android:layout_height="5dp" android:background="#f8f8f8"/>
+    <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:minHeight="70dp"
+              android:id="@+id/back_bg"
+              android:orientation="horizontal"
+              android:background="@drawable/round_bg">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:id="@+id/radio_img"
+                   android:src="@drawable/radio_uncheck_icon"/>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                    android:orientation="vertical">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                        android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:textColor="@color/unchose"
+                              android:gravity="center"
+                              android:singleLine="true"
+                              android:layout_marginTop="10dp"
+                              android:id="@+id/project_name"
+                              android:textSize="12sp"
+                              android:text="黄金宝"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:text="黄金交易市场短期业务"
+                              android:layout_marginLeft="5dp"
+                              android:gravity="left|center_vertical"
+                              android:layout_marginTop="10dp"
+                              android:id="@+id/explain"
+                              android:textSize="12sp"
+                              android:textColor="@color/unchose"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="@color/unchose"
+                          android:gravity="center"
+                          android:layout_marginBottom="10dp"
+                          android:text="剩余额度:"
+                          android:textSize="12sp"
+                          android:id="@+id/surplus_money"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:paddingLeft="5dp"
+                            android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:text="35,000,000.00"
+                              android:gravity="center"
+                              android:textSize="12sp"
+                              android:id="@+id/residual_amount"
+                              android:layout_marginBottom="10dp"
+                              android:textColor="@color/unchose"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:gravity="center|right"
+                              android:text="元"
+                              android:textSize="12sp"
+                              android:layout_marginBottom="10dp"
+                              android:textColor="@color/unchose"
+                              android:id="@+id/surplus_unit"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                      android:paddingRight="5dp"
+                      android:gravity="right|bottom"
+                      android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="@color/unchose"
+                          android:textSize="35sp"
+                          android:gravity="center"
+                          android:id="@+id/rate"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="20sp"
+                          android:textColor="@color/unchose"
+                          android:id="@+id/unit"
+                          android:text="%"/>
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

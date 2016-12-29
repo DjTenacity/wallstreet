@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/suggest"
+                android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/page_title"
+                    android:layout_alignParentTop="true">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#4ea9de"
+                  android:textSize="12sp"
+                  android:paddingTop="10dp"
+                  android:paddingLeft="10dp"
+                  android:id="@+id/recommend_title"
+                  android:layout_alignParentTop="true"
+                  android:text="宜车贷 2016"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:id="@+id/new_flag"
+                   android:src="@drawable/recommendnewicon"/>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/page_title"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textColor="#99333333"
+                      android:textSize="12sp"
+                      android:includeFontPadding="false"
+                      android:gravity="right|center_vertical"
+                      android:id="@+id/time_limit"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="-12dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="45sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:id="@+id/progress_percent_text"
+                      android:text="12"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="35sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:id="@+id/progress_decimal_text"
+                      android:text="12"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="25sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:text="%"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal">
+            <com.yeepbank.android.widget.AnimationProgressBar
+                    android:layout_width="143dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="3dp"
+                    android:progress="60"
+                    android:id="@+id/progress"
+                    style="@style/gradient_progress"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="56px"
+                      android:gravity="center"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/experience"
+                       android:visibility="gone"
+                       android:src="@drawable/experience_icon"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/full_cut"
+                       android:visibility="gone"
+                    android:src="@drawable/full_cut_icon"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/increase_interest"
+                       android:visibility="gone"
+                       android:src="@drawable/increase_interest_icon"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="right"
+                        android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="12sp"
+                          android:text="剩余 "
+                          android:textColor="#666666"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="12sp"
+                          android:textColor="#666666"
+                          android:id="@+id/residual_amount"/>
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textSize="12sp"-->
+                          <!--android:textColor="#999999"-->
+                          <!--android:text="元"/>-->
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

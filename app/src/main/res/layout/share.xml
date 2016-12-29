@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+            android:background="#99000000">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/fn_panel"
+                          android:background="@drawable/round_bg_gray"
+                          android:layout_alignParentBottom="true"
+                        android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                            android:text="分享给朋友"
+                          android:textSize="20sp"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginBottom="20dp"
+                          android:gravity="center"
+                        android:textColor="#999999"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+                        <LinearLayout android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:gravity="center"
+                                    android:layout_weight="1">
+                            <ImageButton android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:id="@+id/share_weixin_btn"
+                                         android:background="@drawable/share_weixin_icon"/>
+                        </LinearLayout>
+
+                        <LinearLayout android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:gravity="center"
+                                      android:layout_weight="1">
+                            <ImageButton android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:id="@+id/share_to_firends_btn"
+                                         android:background="@drawable/share_to_firends_icon"/>
+                        </LinearLayout>
+                </LinearLayout>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1dp"
+                      android:background="#c9c9c9"/>
+                <Button android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff58a5ff"
+                        android:textSize="20sp"
+                        android:text="取      消"
+                        android:id="@+id/cancel_btn"
+                        android:background="@null"/>
+            </LinearLayout>
+
+</RelativeLayout>

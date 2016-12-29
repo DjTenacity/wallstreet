@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-ldpi/security_progress.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-ldpi/security_progress.png"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-ldpi/security_progress_bg.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-ldpi/security_progress_bg.png"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    }
+]

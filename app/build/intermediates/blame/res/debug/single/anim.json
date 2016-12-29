@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_from_small_to_big.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_from_small_to_big.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_in_from_up.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_in_from_up.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out_from_left.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out_from_left.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/show_msg_in.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/show_msg_in.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/out_with_small_sacle.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/out_with_small_sacle.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_in_from_right.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_from_xbig_to_xsmall.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_from_xbig_to_xsmall.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out_from_right.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out_from_right.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_in_from_bottom.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_from_big_to_small.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_from_big_to_small.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out_without_move.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out_without_move.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out_from_bottom.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_from_xsmall_to_xbig.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_from_xsmall_to_xbig.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/hide_msg_in.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/hide_msg_in.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_in.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_in.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_in_from_left.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/anim/activity_out_from_up.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/anim/activity_out_from_up.xml"
+    }
+]

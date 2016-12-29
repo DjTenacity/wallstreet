@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#F8F8F8">
+    <include layout="@layout/action_bar" android:id="@+id/action_bar"></include>
+
+    <View android:layout_width="fill_parent"
+              android:layout_height="1px"
+          android:layout_marginTop="20dp"
+              android:background="#d0d0d0"/>
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                android:background="#ffffff"
+                  android:paddingRight="10dp">
+            <com.yeepbank.android.widget.LayoutInSetting
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    app:f_text="账号"
+                    app:t_img="@null"
+                    app:s_text="18556787890"
+
+                    app:is_show_default="false"
+                    android:id="@+id/my_accountName"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+              android:layout_height="1px"
+              android:background="#d0d0d0"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/invest_level_content"
+                android:orientation="vertical">
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:layout_marginTop="20dp"
+                  android:background="#c1c1c1"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#ffffff"
+                          android:paddingRight="10dp">
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:id="@+id/invest_level"
+                        app:f_text="投资级别"
+                        app:t_img="@null"
+                        app:s_text=""
+                        app:is_show_default="false"/>
+            </LinearLayout>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:background="#c1c1c1"/>
+    </LinearLayout>
+
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="1px"
+          android:layout_marginTop="20dp"
+          android:background="#c1c1c1"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:background="#ffffff"
+                  android:paddingRight="10dp">
+        <com.yeepbank.android.widget.LayoutInSetting
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/update_loginPassword"
+                app:f_text="登录密码"
+                app:t_img="@null"
+                app:text_color="#3887be"
+                app:s_text="修改"
+                app:is_show_default="false"
+                />
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="1px"
+          android:layout_marginLeft="20dp"
+          android:background="#d0d0d0"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:background="#ffffff"
+                  android:paddingRight="10dp">
+ <!--
+        <com.yeepbank.android.widget.LayoutInSetting
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/update_trade_password"
+                app:f_text="交易密码"
+                app:t_img="@null"
+                app:s_text="修改"
+                app:is_show_default="false"/>
+  -->
+        <com.yeepbank.android.widget.LayoutInSetting
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/update_trade_password"
+                app:f_text="交易密码"
+                app:t_img="@null"
+                app:s_text="修改"
+                app:text_color="#3887be"
+                app:is_show_default="false" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="1px"
+          android:background="#d0d0d0"/>
+
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="1px"
+          android:layout_marginTop="20dp"
+          android:background="#d0d0d0"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:background="#ffffff"
+                  android:paddingRight="10dp">
+        <com.yeepbank.android.widget.LayoutInSetting
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/realnameAuthenticationId"
+                app:f_text="实名认证"
+                app:t_img="@null"
+                app:s_text="去认证"
+                app:text_color="#3887be"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="1px"
+          android:background="#d0d0d0"/>
+
+
+</LinearLayout>

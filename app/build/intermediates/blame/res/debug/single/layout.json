@@ -1,0 +1,518 @@
+[
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/calendar_layout.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/calendar_layout.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_trade_password_step_one.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_trade_password_step_one.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/accept_push_setting.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/accept_push_setting.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/project_info.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/project_info.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_daily_increast.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_daily_increast.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/update_version_layout.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/update_version_layout.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/download.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/download.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/account_and_security.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/account_and_security.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_epos_cardreader.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_epos_cardreader.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/me_setting.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/me_setting.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/battle_coupon_center_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/battle_coupon_center_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/share.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/share.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_doing.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_doing.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_trade_password_step_four.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_trade_password_step_four.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/home_activity.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/home_activity.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/realname_authentication.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/realname_authentication.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/password_panel.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/password_panel.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/scroll_text.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/scroll_text.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/view_tips_loading.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/view_tips_loading.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/trade_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/trade_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/company_business_transfer.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/company_business_transfer.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/loadmore_footer.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/loadmore_footer.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_speed_buy.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_speed_buy.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/more_detail.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/more_detail.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/excharge_investment.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/excharge_investment.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/trade_password_sure.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/trade_password_sure.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/one_fragment.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/one_fragment.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/update_login_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/update_login_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/gridpasswordview.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/gridpasswordview.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/withdrawals.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/withdrawals.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/bank_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/bank_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/net_work_off.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/net_work_off.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/epos_inputpassword.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/epos_inputpassword.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/activity_cancelorder.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/activity_cancelorder.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/recharge.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/recharge.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/update_trade_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/update_trade_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/coupons.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/coupons.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_epos_signature.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_epos_signature.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/add_new_bank_card.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/add_new_bank_card.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_epos_match_bluettooth.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_epos_match_bluettooth.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/exchange_coupons.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/exchange_coupons.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/input_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/input_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/seckill.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/seckill.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/bank_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/bank_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/calendar_card.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/calendar_card.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/loading_dialog.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/loading_dialog.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/investment_record_waitend_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/investment_record_waitend_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/detail_layout_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/detail_layout_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/alert_dialog.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_epos_trade.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_epos_trade.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/message.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/message.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/gridpasswordview_textview.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/gridpasswordview_textview.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/bank_card_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/bank_card_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/recommend_code.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/recommend_code.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/web.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/web.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/repayment_list_in_project_more.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/repayment_list_in_project_more.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/running_account_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/running_account_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/more_detail_project_detail_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/more_detail_project_detail_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_success.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_success.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/transform.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/transform.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/launch_page.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/launch_page.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_list_item_in_project_more.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_list_item_in_project_more.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_password_step_two.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_password_step_two.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/company_busniess_bidding.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/company_busniess_bidding.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/activity_pay.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/activity_pay.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/daily_increase.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/daily_increase.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/project_detail.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/project_detail.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/guid_page.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/guid_page.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_recommend_new.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_recommend_new.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_sure.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_sure.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/project_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/project_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/investment_record_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/investment_record_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_recommend_layout.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_recommend_layout.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest_recommend.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest_recommend.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/transform_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/transform_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/action_bar.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/action_bar.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/assets_ratio.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/assets_ratio.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/alert_dialog_third_line.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/alert_dialog_third_line.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/bank_card_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/bank_card_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/dailyincrease_buy_and_turn_out.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/dailyincrease_buy_and_turn_out.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_trade_password_step_third.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_trade_password_step_third.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/activity_orderresult.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/activity_orderresult.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_by_card_for_recharge.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_by_card_for_recharge.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/investmentrecord_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/investmentrecord_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/xlistview_footer.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/xlistview_footer.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_trade_password_step_two.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_trade_password_step_two.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/login_and_register.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/login_and_register.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/running_account_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/running_account_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/setting_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/setting_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/recommend_project.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/recommend_project.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/action_bar_layout_text.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/action_bar_layout_text.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/daily_increase_init_page.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/daily_increase_init_page.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/layout_in_setting.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/layout_in_setting.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_password_step_one.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_password_step_one.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/turn_out.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/turn_out.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/more_detail_invest_list.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/more_detail_invest_list.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/investment_record.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/investment_record.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/refresh_title.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/refresh_title.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/more_detail_repay_plan.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/more_detail_repay_plan.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/pay_epos_typos_paycard.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/pay_epos_typos_paycard.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/assignment_rights.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/assignment_rights.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/battle_coupon_center.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/battle_coupon_center.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/exist_panel.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/exist_panel.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/coupons_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/coupons_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/bank_card.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/bank_card.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/update_trade_password_step_one.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/update_trade_password_step_one.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/list_item_button.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/list_item_button.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/personal_business.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/personal_business.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/about_yeepbank.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/about_yeepbank.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/purcharge_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/purcharge_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/sort_panel.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/sort_panel.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/xlistview_header.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/xlistview_header.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/tick_raiders.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/tick_raiders.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/forget_trade_password.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/forget_trade_password.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/check_version.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/check_version.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/purchase.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/purchase.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/advice_feedback.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/advice_feedback.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/more_detail_project_detail.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/more_detail_project_detail.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/gridpasswordview_divider.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/gridpasswordview_divider.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/trun_out_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/trun_out_list_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/assignment_rights_layout.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/assignment_rights_layout.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/step_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/step_item.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/invest.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/invest.xml"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/layout/project_list_item.xml",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/layout/project_list_item.xml"
+    }
+]

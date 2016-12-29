@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="35dip"
+        android:layout_marginLeft="@dimen/left_dimen"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bluetoothAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/left_dimen"
+        android:layout_weight="1"
+        android:gravity="right" >
+
+        <cn.com.kuaishua.sdk.util.ButtonInItem
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:background="@drawable/wzfbtn_style"
+            android:focusable="false"
+            android:onClick="connect"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/btn1"
+            android:text="连接"
+            android:textColor="#0099ff" />
+    </LinearLayout>
+
+</LinearLayout>

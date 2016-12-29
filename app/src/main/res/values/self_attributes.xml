@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchBtn">
+        <attr name="is_open" format="boolean"/>
+        <attr name="bg_color" format="color"/>
+        <attr name="font_color" format="color"/>
+        <attr name="btn_name" format="string"/>
+    </declare-styleable>
+    <!--圆形图标-->
+    <declare-styleable name="CircleImage2">
+        <attr name="cb_color" format="color" />
+        <attr name="draw_resource" format="reference" />
+        <attr name="top" format="dimension"/>
+    </declare-styleable>
+    <!--滚动页面下拉刷新-->
+    <declare-styleable name="RefreshScrollerView">
+        <!--显示/隐藏速度-->
+        <attr name="speed" format="integer" />
+        <!--灵敏度-->
+        <attr name="sensitivity" format="integer" />
+    </declare-styleable>
+    <!--登录窗口-->
+    <declare-styleable name="LoginFrame">
+        <attr name="show_width" format="float"/>
+        <attr name="show_height" format="float"/>
+    </declare-styleable>
+    <!--设置里面自定义Layout-->
+    <declare-styleable name="LayoutInSetting">
+        <attr name="f_text" format="string"/>
+        <attr name="s_text" format="string"/>
+        <attr name="t_img" format="reference"/>
+        <attr name="draw_left" format="reference"/>
+        <attr name="is_show_default" format="boolean"/>
+        <attr name="text_color" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrollTextView">
+        <attr name="targetNumber" format="integer"/>
+        <attr name="delay" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchItemLayout">
+        <attr name="btn_left" format="string"/>
+        <attr name="btn_right" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ChangeItemWithAnimationLayout">
+        <attr name="pageStyle" format="integer"/>
+    </declare-styleable>
+
+    <!--下拉刷新，上拉加载-->
+    <declare-styleable name="PullToRefresh">
+        <attr name="push" format="boolean"/>
+    </declare-styleable>
+
+</resources>

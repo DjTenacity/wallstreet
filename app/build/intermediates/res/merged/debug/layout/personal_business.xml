@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingBottom="10dp"
+              android:orientation="vertical">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="40dp"
+              android:gravity="left|center_vertical"
+              android:textColor="#3887BE"
+              android:text="借款人信息"/>
+    <LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginBottom="5dp">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="姓名："
+              android:textColor="#999999"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/name"
+              android:textColor="#999999"/>
+</LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginBottom="5dp">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="手机："
+              android:textColor="#999999"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/phone"
+              android:textColor="#999999"/>
+</LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginBottom="5dp">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="身份证号："
+              android:textColor="#999999"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/id_card"
+              android:textColor="#999999"/>
+</LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="年收入："
+                  android:textColor="#999999"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/person_borrown_income"
+                  android:textColor="#999999"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="主要财产："
+                  android:textColor="#999999"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/person_borrown_assets"
+                  android:textColor="#999999"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="主要债务："
+                  android:textColor="#999999"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/person_borrown_debt"
+                  android:textColor="#999999"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="主要收入来源："
+                  android:textColor="#999999"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/person_borrown_business"
+                  android:textColor="#999999"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="5dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="是否有银行还款违约记录："
+                  android:textColor="#999999"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/person_borrown_defaults"
+                  android:textColor="#999999"/>
+    </LinearLayout>
+
+</LinearLayout>

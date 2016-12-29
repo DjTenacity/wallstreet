@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center">
+    <LinearLayout android:layout_width="103dp"
+                  android:layout_height="92dp"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                android:background="@drawable/loading_bg">
+        <ImageView android:layout_width="34dp"
+                   android:layout_height="34dp"
+                   android:id="@+id/loading_icon"
+                   android:src="@drawable/loading_icon"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="30dp"
+                  android:gravity="center"
+                  android:text="玩命加载中"
+                  android:id="@+id/msg"
+                android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <!--<LinearLayout android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/dialog_bocop_loaing_bg">
+           <RelativeLayout android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_marginTop="50dp"
+                           android:layout_weight="2">
+                            <ImageView android:layout_width="30dp"
+                                       android:layout_height="30dp"
+                                        android:background="@drawable/logo_icon"
+
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"/>
+                            <ImageView android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_centerVertical="true"
+                                       android:layout_centerHorizontal="true"
+                                       android:id="@+id/load_circle"
+                                    android:background="@drawable/dialog_bocop_loading_rotate_anim_img"/>
+           </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="50dp"
+                        android:gravity="center">
+            <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:ellipsize="marquee"
+                    android:text="正在加载"
+                    android:gravity="center"
+                    android:textColor="#6F6868"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_point"
+                    android:layout_width="20dp"
+                    android:layout_height="fill_parent"
+                    android:text="..."
+                    android:textColor="#6F6868"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/tv"/>
+        </RelativeLayout>
+    </LinearLayout>-->
+
+</LinearLayout>

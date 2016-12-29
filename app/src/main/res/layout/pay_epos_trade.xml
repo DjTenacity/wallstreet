@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <cn.com.kuaishua.sdk.base.ActionBarTextView
+        android:id="@+id/wallteActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_layout_height" >
+    </cn.com.kuaishua.sdk.base.ActionBarTextView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/actionbar_layout_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:onClick="homePageBtn"
+            android:text="回到首页"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/errortext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:text="@color/black"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/retrybtn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/actionbar_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:onClick="submitTrade"
+            android:text="请点击重试"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

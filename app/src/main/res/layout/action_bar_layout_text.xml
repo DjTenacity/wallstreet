@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_layout_height"
+    android:background="@color/app_bg_color" >
+
+    <TextView
+        android:id="@+id/leftActionButton"
+        style="@style/ActionBarLeftIconButton"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/btn_goback_style"
+        android:gravity="center"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/actionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/rightActionButton"
+        style="@style/ActionBarIconButton"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="返回"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

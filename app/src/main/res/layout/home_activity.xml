@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/toolbar"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="vertical">
+
+        <RadioGroup android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/tab_bar_bg"
+                    android:gravity="center_vertical"
+                    android:id="@+id/function_btn"
+                    android:orientation="horizontal">
+                <RelativeLayout android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                    <RadioButton style="@style/radio_button_style"
+                                 android:drawableTop="@drawable/tab_invest_icon_unchecked"
+                                 android:text="@string/invest"
+                                 android:checked="true"
+                                 android:layout_centerInParent="true"
+                                 android:id="@+id/touzi"/>
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/red_dot"
+                                android:layout_alignParentTop="true"
+                               android:layout_alignRight="@+id/touzi"
+                               android:visibility="gone"
+                               android:layout_marginTop="5dp"
+                               android:layout_marginRight="35dp"/>
+                </RelativeLayout>
+
+            <RelativeLayout android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                <RadioButton style="@style/radio_button_style"
+                             android:drawableTop="@drawable/tab_daily_increast_icon_unchecked"
+                             android:text="@string/daily_increase"
+                             android:layout_centerInParent="true"
+                             android:id="@+id/tty"/>
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/red_dot"
+                           android:visibility="gone"
+                           android:layout_alignRight="@+id/tty"
+                           android:layout_marginTop="5dp"
+                           android:layout_marginRight="35dp"
+                           android:layout_alignParentTop="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                <RadioButton style="@style/radio_button_style"
+                             android:drawableTop="@drawable/coupon_center_nf"
+                             android:id="@+id/battle_coupon_btn"
+                             android:layout_centerInParent="true"
+                             android:text="领券中心"/>
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/red_dot"
+                           android:visibility="gone"
+                           android:layout_alignRight="@+id/battle_coupon_btn"
+                           android:layout_marginTop="5dp"
+                           android:layout_marginRight="35dp"
+                           android:layout_alignParentTop="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                <RadioButton style="@style/radio_button_style"
+                             android:drawableTop="@drawable/tab_account_icon_unchecked"
+                             android:id="@+id/me_btn"
+                             android:layout_centerInParent="true"
+                             android:text="@string/me"/>
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/red_dot"
+                           android:visibility="gone"
+                           android:layout_alignRight="@+id/me_btn"
+                           android:layout_marginTop="5dp"
+                           android:layout_marginRight="35dp"
+                           android:layout_alignParentTop="true"/>
+            </RelativeLayout>
+
+
+
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+            android:layout_above="@id/toolbar"
+                 android:layout_below="@id/action_bar"
+            android:id="@+id/function_panel">
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bg">#c1c1c1</color>
+    <color name="hint_color">#ffa1a1a1</color>
+    <color name="tool_bar">#ffffff</color>
+    <color name="dark_hint_color">#ff6b6b6b</color>
+    <color name="light_gray">#999999</color>
+    <color name="title">#666666</color>
+    <color name="unchose">#cAcAcA</color>
+
+
+
+    <!--快刷需要资源-->
+    <color name="light_gray_line">#cacaca</color>
+    <color name="black">#000000</color>
+    <color name="backColor">#2000</color>
+    <color name="white">#ffffff</color>
+    <color name="line">#c9c9c9</color>
+    <color name="grey_line">#cccccc</color>
+    <color name="activity_bg">#ffffff</color>
+    <color name="textcolor_tobeperfect">#e72f16</color>
+
+    <!-- 登录验证对话框 -->
+    <color name="dialog_title_color">#2967A8</color>
+    <color name="dialog_tip_color">#AFAFAF</color>
+    <color name="dialog_verify_code_btn_disable">#DEDEDE</color>
+    <color name="dialog_verify_code_btn_enable">#4EA1F9</color>
+
+    <!-- 新版 -->
+    <color name="app_bg_color">#FF0000</color>
+    <color name="trade_reduce">#f66d22</color>
+    <color name="trade_add">#1d802a</color>
+    <color name="app_title_color">#fc8403</color>
+    <color name="tab_title_color">#646464</color>
+    <color name="cash_rechange">#5b87e7</color>
+    <color name="tab_title_color_2">#323232</color>
+    <color name="transparent">#e0FFFFFF</color>
+    <color name="edittext_line">#dbdbdb</color>
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="blue">#0066dd</color>
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="trans">#50000000</color>
+    <color name="red">#fe0202</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="regBackGround">#ffd2d6d7</color>
+    <color name="darkgrey">#696969</color>
+    <color name="grey">#E8E8E8</color>
+    <!-- green -->
+    <color name="green">#327e26</color>
+    <color name="light_green">#4baf3c</color>
+    <!-- gray -->
+    <color name="dark_gray_line">#6e6e6e</color>
+    <color name="light_gray_text">#888</color>
+    <color name="light_gray_bg">#ebebeb</color>
+    <!-- red -->
+    <color name="light_red">#e25050</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+
+</resources>

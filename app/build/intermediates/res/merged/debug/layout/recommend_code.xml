@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/account_bg_daily_increast">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/action_bar_layout"
+                android:layout_alignParentTop="true">
+        <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2.5"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:gravity="bottom|center_horizontal"
+                          android:paddingBottom="30dp"
+                        android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="我的推荐码"
+                          android:textColor="#ffffff"
+                          android:textSize="18sp"
+                          android:gravity="center"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/rec_code"
+                          android:textColor="#ffffff"
+                          android:textSize="18sp"
+                          android:gravity="center"/>
+                <LinearLayout android:layout_width="150dp"
+                              android:layout_height="150dp"
+                              android:layout_marginTop="13dp"
+                              android:background="@drawable/round_bg">
+                    <ImageView android:id="@+id/rec_code_img"
+                               android:layout_width="fill_parent"
+                               android:layout_height="fill_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2"
+                      android:paddingLeft="5dp"
+                      android:paddingRight="5dp"
+                      android:paddingTop="10dp"
+                    android:background="#ffffff">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@drawable/round_bg_gray"
+                          android:gravity="center"
+                          android:paddingBottom="30dp"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="5dp"
+                          android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="50dp"
+                          android:text="分享推荐码,与好友一起赢投资券"
+                          android:textColor="#ff41b1ff"
+                          android:gravity="center"
+                          android:textSize="16sp"/>
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="50dp"
+                          android:text="• 邀请好友扫描二维码,或注册时输入页面上方推荐码,注册成功好友立得1000元体验券1张,您可获得50元投资券1张"
+                          android:textColor="#ff9B9B9B"
+                          android:gravity="left|center_vertical"
+                          android:id="@+id/explan_one"
+                          android:textSize="13sp"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="40dp"
+                          android:gravity="left|center_vertical"
+                          android:text="• 被邀请好友首次充值满5000元,您和好友各获得100元投资券1张."
+                          android:textColor="#ff9B9B9B"
+                            android:id="@+id/explan_two"
+                          android:textSize="13sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

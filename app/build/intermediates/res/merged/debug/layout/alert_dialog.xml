@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+    <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:background="@drawable/alert_dialog_body_bg"
+                              android:minHeight="100dp"
+                              android:orientation="vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="提示"
+                              android:paddingTop="10dp"
+                              android:gravity="center"
+                              android:textColor="#666666"
+                              android:textSize="20sp"
+                              android:layout_marginTop="6dp"
+                              android:layout_marginLeft="6dp"
+                              android:id="@+id/alert_title"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:paddingLeft="10dp"
+                              android:paddingRight="10dp"
+                              android:layout_weight="2"
+                              android:textColor="#999999"
+                              android:textSize="16sp"
+                              android:text="请输入消息内容"
+                              android:layout_marginTop="5dp"
+                              android:gravity="center"
+                              android:paddingBottom="10dp"
+                              android:id="@+id/alert_msg"/>
+
+                </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1px"
+              android:background="#c1c1c1"/>
+
+                <LinearLayout android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                              android:background="@drawable/alert_dialog_body_left_btn"
+                                android:orientation="horizontal">
+                    <Button android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:textColor="#3887be"
+                            android:id="@+id/alert_cancel_btn"
+                            android:text="取消"/>
+                    <View android:layout_width="1px"
+                          android:layout_height="fill_parent"
+                          android:background="#c1c1c1"/>
+                    <Button android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:textColor="#3887be"
+                            android:id="@+id/alert_center_btn"
+                            android:text="知道了"/>
+                    <View android:layout_width="1px"
+                          android:layout_height="fill_parent"
+                          android:background="#c1c1c1"/>
+                    <Button android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:textColor="#3887be"
+                            android:id="@+id/alert_sure_btn"
+                            android:text="确定"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

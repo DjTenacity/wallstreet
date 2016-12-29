@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#F8F8F8">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"></include>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                  android:layout_marginTop="20dp"
+            >
+       <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/about_logo"></ImageView>
+        <TextView  android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="易宝金融 6.2.3"
+                    android:textSize="23sp"
+                    android:textColor="#c1c1c1"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/about_version_number"
+                />
+
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1dp"
+            android:background="#c1c1c1"
+            android:layout_margin="20dp"/>
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#999999"
+              android:textSize="14sp"
+              android:layout_margin="20dp"
+              android:lineSpacingExtra="5dp"
+              android:text="@string/instruction"/>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="50dp"
+                  android:orientation="vertical"
+                  android:gravity="center_vertical|center_horizontal"
+                  android:layout_marginTop="40dp"
+            >
+
+
+        <Button android:layout_width="324dp"
+                android:layout_height="44dp"
+                android:background="@drawable/about_version_update"
+                android:id="@+id/about_version_update_btn"></Button>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                  android:layout_weight="1"
+                    android:orientation="vertical"
+                  android:gravity="bottom">
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:text="Copyright@2013-2016"
+                android:textColor="#c1c1c1"
+                  android:gravity="center_horizontal"
+                android:textSize="16sp"/>
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="北京易宝金融信息服务有限公司"
+                  android:textColor="#c1c1c1"
+                  android:gravity="center_horizontal"
+                  android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"></include>
+
+<LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+    <EditText android:layout_width="fill_parent"
+               android:layout_height="200dp"
+               android:paddingLeft="8dp"
+              android:paddingTop="8dp"
+              android:textColor="#101010"
+               android:hint="有什么问题和建议，快告诉我们吧~"
+              android:textColorHint="@color/hint_color"
+               android:textSize="15sp"
+              android:textCursorDrawable="@drawable/pen"
+               android:gravity="top"
+              android:background="@drawable/round_bg_gray"
+              android:id="@+id/advice_context"
+                android:maxHeight="200dp"
+              android:maxLength="50"/>
+
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  >
+
+        <EditText android:layout_width="fill_parent"
+                  android:layout_height="45dp"
+                  android:paddingLeft="8dp"
+                  android:hint="手机号(选填)，有机会获得投资券"
+                  android:textColorHint="@color/hint_color"
+                  android:textSize="15sp"
+                  android:textColor="#101010"
+                  android:inputType="phone"
+                  android:maxLength="11"
+                  android:textCursorDrawable="@drawable/pen"
+                  android:gravity="center_vertical"
+                  android:background="@drawable/round_bg_gray"
+                  android:id="@+id/advice_telePhoneNumber"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                  >
+
+        <Button  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+
+                  android:background="@drawable/submit_button"
+                  android:id="@+id/advice_btn"
+                ></Button>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

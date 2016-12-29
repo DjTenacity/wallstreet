@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="150dp"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:background="@drawable/check_version_bg">
+        <LinearLayout android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:gravity="bottom"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textSize="20sp"
+                      android:textColor="#333333"
+                      android:layout_marginLeft="10dp"
+                    android:text="正在检测版本信息"/>
+            <ProgressBar android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="35dp"
+                         android:layout_marginRight="35dp"
+                    style="@style/unknow_progress"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+            <TextView
+                    android:id="@+id/version_tv"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="fill_parent"
+                    android:ellipsize="marquee"
+                    android:text="检查版本更新"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#999999"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/version_tv_point"
+                    android:singleLine="true"
+                    />
+
+            <TextView
+                    android:id="@+id/version_tv_point"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:text="..."
+                    android:textColor="#999999"
+                    android:gravity="left|center_vertical"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

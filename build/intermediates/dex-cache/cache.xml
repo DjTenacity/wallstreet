@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/pushservice-4.5.3.48.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77392fd69a14d333856f98ef6074643844cb7f61">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/pushservice-4.5.3.48_9db4fd8ad9d9b282770a4c7922ca512d5f738d47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/jackson-mapper-asl-1.9.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/jackson-mapper-asl-1.9.13_600e782e50af1c0227e7ae72b32a8f233bbc22ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/jackson-databind-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.3_3558d517ade5cbd6a86be849c39ab5b48e206cf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/GetuiSDK2.8.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f00cf9e7afe9e79f651d6cc2f0e4ef511cfb4013">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/GetuiSDK2.8.1.0_a268bbfbbb22b5a8d436f3f7e642bcb2e79dc682.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/Android-Tools/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_9356604b6e2821fa0ed2571d3ace06c5900bd2bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3_685cdbdb30f3dd6d47809823681eb08060b45f31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/volley-1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1f5196e605116802efa0e4358d0d19afb3ca7913">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/volley-1.0-SNAPSHOT_1ce87a6f4ba4c8291a48dfc521fbd02403b32fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_bb7e25fd05942696fa822e54e7b0241a9f0c8eed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/Java-WebSocket-1.3.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c16847bc8c4f0268d91f0efa730e9c614aa546a1">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.1-SNAPSHOT_19f89d1ae256fc616f7224ed217567244217b2bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3_2040c4f59146e9daa7732254ba7cb6b5b6a7479b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/sun.misc.BASE64Decoder_e634c26985ace6b2b499c56f9f2dc27ee51baba9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_c19aeedb1e3dceff1fa9525109faa44e5cb1cd75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/locSDK_3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09224a1883da8b5bd37e766f4fab80570d879898">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/locSDK_3.1_5e6ced96f74fe1cc75114d9189aa0a8f52f5f201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/kspaysdkrelease2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1de0cf764d9b24a3af4b56ba7eba563e2a56b34a">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/kspaysdkrelease2.2.0_f6f566d08003d7e18862d43f87fdfb21f0559957.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/jackson-annotations-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.3_851e070a1fa034f623a76f2ff1dc503fe78c8e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/libammsdk_21fdc546692fab47b853978359ce118169285e42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_e60850f4200d08b91a8504d4dc64285adea5e505.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/mpchartlib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3390f40698955221eab52de2c9659ce418930540">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/mpchartlib_16afae65b7fa06f84bbf9bfa41f8d263cb25b56a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/libs/universal-image-loader-1.8.6-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9ad605dd55be2e74e614b2ab2ff466439c4461b7">
+        <dex dex="/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.6-with-sources_bbec8927d85fbefe023005dfd31faac5a63fee09.jar" />
+    </item>
+
+</items>

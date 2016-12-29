@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#ffffff">
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:gravity="center">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:src="@drawable/investment_line"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="9"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="30dp"
+                >
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="3"
+
+                          android:gravity="center_horizontal|bottom">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#4ea9de"
+                          android:textSize="20sp"
+                          android:text="8"
+                          android:id="@+id/invest_monthne"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#4ea9de"
+                          android:textSize="15sp"
+                          android:text=".31"
+                          android:id="@+id/invest_datene"
+                        />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="9"
+                          android:orientation="horizontal"
+                          android:gravity="center_vertical"
+
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#666666"
+                          android:textSize="15sp"
+                          android:text="投资金额："
+                          android:layout_marginTop="2dp"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#666666"
+                          android:textSize="15sp"
+                          android:text="120000000.00"
+                          android:layout_marginTop="2dp"
+                          android:id="@+id/invest_amountne"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:text="元"
+                          android:textColor="#666666"
+                          android:textSize="12sp"
+                          android:layout_marginTop="6dp"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+        <!--新增加的部分-->
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="20dp"
+                      android:id="@+id/investment_waitend_coupon_layout"
+                      android:visibility="gone"
+                      android:orientation="horizontal">
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="3"
+                          android:orientation="horizontal"
+                    >
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="9"
+                          android:orientation="horizontal"
+                    >
+                <TextView android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="4"
+                          android:text="(含体验券1000元)"
+                          android:id="@+id/coupon_use"
+                          android:textColor="#999999"
+
+                          android:gravity="center_vertical|left"
+
+                        />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--新增加的部分-->
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="30dp"
+
+                      android:orientation="horizontal">
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="3"
+                          android:orientation="horizontal"
+                    >
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="9"
+                          android:orientation="horizontal"
+                    >
+                <TextView android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="4"
+                          android:text="易融金-2345"
+
+                          android:textColor="#999999"
+
+                          android:gravity="center_vertical|left"
+                          android:id="@+id/invest_typene"
+                        />
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="fill_parent"
+                              android:layout_weight="3"
+                              android:gravity="center"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="3"
+
+                              android:textColor="#999999"
+
+                              android:textSize="15sp"
+                              android:id="@+id/invest_timelimitne"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="月期"
+
+                              android:textColor="#999999"
+
+                              android:layout_marginTop="1dp"
+                              android:id="@+id/date_unitne"
+                              android:textSize="13sp"
+                            />
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="fill_parent"
+                              android:layout_weight="7"
+                              android:gravity="center"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="10"
+
+                              android:textColor="#999999"
+
+                              android:textSize="15sp"
+                              android:id="@+id/invest_ratene"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="%年化利率"
+
+                              android:textColor="#999999"
+
+                              android:layout_marginTop="1dp"
+                              android:layout_marginRight="10dp"
+                              android:layout_marginBottom="2dp"
+                              android:textSize="13sp"
+                            />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                >
+            <ImageView android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/investment_record_spilt_line"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

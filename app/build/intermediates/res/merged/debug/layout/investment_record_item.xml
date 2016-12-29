@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#ffffff"
+
+        >
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:gravity="center">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:src="@drawable/investment_line"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="9"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="30dp"
+
+                >
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="3"
+                          android:gravity="center_horizontal|bottom"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#4ea9de"
+                          android:textSize="20sp"
+                          android:text="8"
+                          android:id="@+id/invest_month"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#4ea9de"
+                          android:textSize="15sp"
+                          android:text=".31"
+                          android:id="@+id/invest_date"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="9"
+                          android:orientation="horizontal"
+                          android:layout_gravity="bottom"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#ff101010"
+                          android:textSize="15sp"
+                          android:text="投资金额："
+                          android:layout_marginTop="7dp"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#ff101010"
+                          android:textSize="15sp"
+                          android:text="120000000.00"
+                          android:layout_marginTop="7dp"
+                          android:id="@+id/invest_amount"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:text="元"
+                          android:textColor="#ff101010"
+                          android:textSize="12sp"
+                          android:layout_marginTop="9dp"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="30dp"
+
+                      android:orientation="horizontal">
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="3"
+                          android:orientation="horizontal"
+                    >
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="9"
+                          android:orientation="horizontal"
+                    >
+                <TextView android:layout_width="0dp"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="5"
+                          android:text="易融金-2345"
+
+                          android:textColor="#ff657991"
+
+                          android:gravity="center_vertical|left"
+                          android:id="@+id/invest_type"
+                        />
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="fill_parent"
+                              android:layout_weight="5"
+                              android:gravity="center"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="3"
+
+                              android:textColor="#ff657991"
+                              android:textSize="15sp"
+
+                              android:id="@+id/invest_timelimit"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="月期"
+
+                              android:textColor="#ff657991"
+
+                              android:layout_marginTop="1dp"
+                              android:id="@+id/date_unit"
+                              android:textSize="13sp"
+                            />
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="fill_parent"
+                              android:layout_weight="10"
+                              android:gravity="center"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="10"
+
+                              android:textColor="#ff657991"
+
+                              android:textSize="15sp"
+                              android:id="@+id/invest_rate"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="%年化利率"
+
+                              android:textColor="#ff657991"
+
+                              android:layout_marginTop="1dp"
+                              android:layout_marginRight="10dp"
+                              android:textSize="13sp"
+                            />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="right">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="%年化利率"
+                      android:textColor="#ff101010"
+                      android:layout_marginTop="2dp"
+                      android:layout_marginRight="10dp"
+                      android:layout_marginBottom="9dp"
+
+                      android:id="@+id/date_limit"
+                      android:textSize="13sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                >
+            <ImageView android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/investment_record_spilt_line"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

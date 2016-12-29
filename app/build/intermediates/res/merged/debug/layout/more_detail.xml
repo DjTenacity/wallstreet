@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:paddingBottom="58dp"
+              android:background="#ffffff">
+            <com.yeepbank.android.widget.ChangeItemWithAnimationLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/navigation_item"
+                    android:background="@drawable/round_bg_radius_big_gray"
+                    app:pageStyle="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            <android.support.v4.view.ViewPager
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/triangle"
+                    android:id="@+id/project_detail_pager"
+                    android:background="@drawable/detail_card"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+                <!--<FrameLayout android:layout_width="fill_parent"-->
+                             <!--android:layout_height="fill_parent"-->
+                             <!--android:background="@drawable/detail_card"-->
+                            <!--android:id="@+id/project_detail_fragment"/>-->
+            </android.support.v4.view.ViewPager>
+
+
+
+
+                <!--&lt;!&ndash; 计划还款 &ndash;&gt;-->
+                <!--<include layout="@layout/more_detail_repay_plan"-->
+                         <!--android:id="@+id/repayment_plan_more_detail"/>-->
+                <!--&lt;!&ndash; 投资列表 &ndash;&gt;-->
+                <!--<include layout="@layout/more_detail_invest_list"-->
+                         <!--android:id="@+id/invest_list_more_detail"/>-->
+                <!--&lt;!&ndash;项目详情&ndash;&gt;-->
+                <!--<include layout="@layout/more_detail_project_detail_list"-->
+                         <!--android:id="@+id/project_detail_layout"/>-->
+
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/triangle"
+                       android:layout_marginLeft="5dp"
+                       android:layout_below="@+id/navigation_item"
+                       android:src="@drawable/choose_triangle"/>
+
+
+
+</RelativeLayout>

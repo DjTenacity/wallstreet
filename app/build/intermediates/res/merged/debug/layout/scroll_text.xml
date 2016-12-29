@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yeepbank.android.widget.ScrollTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        app:targetNumber="3"
+        app:delay="300"
+        android:orientation="vertical"/>

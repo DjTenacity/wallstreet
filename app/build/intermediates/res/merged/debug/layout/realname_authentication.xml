@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/round_bg_gray"
+                 android:orientation="vertical"
+                 android:layout_marginTop="6dp"
+                 android:layout_marginLeft="4dp"
+                 android:layout_marginRight="4dp"
+                 android:scrollbars="none"
+                android:minHeight="320dp">
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="0dp"
+                              android:layout_marginTop="30dp"
+                              android:gravity="center_horizontal|bottom"
+                            android:layout_weight="1">
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginLeft="20dp"
+                                      android:layout_marginRight="20dp"
+                                  android:scrollbars="none"
+                                  android:background="@drawable/round_bg_gray"
+
+                                android:orientation="vertical">
+                            <EditText android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                        android:hint="真实姓名"
+                                      android:id="@+id/real_name"
+                                      android:textSize="16sp"
+                                      android:background="@null"
+                                      android:paddingLeft="4dp"
+                                      android:textColor="#999999"
+                                      android:textCursorDrawable="@drawable/pen"
+                                    android:textColorHint="#c9c9c9"/>
+                            <View android:layout_width="fill_parent"
+                                  android:layout_height="0.5dp"
+                                  android:background="#c1c1c1"/>
+                            <EditText android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:hint="真实身份证"
+                                      android:id="@+id/real_id_card"
+                                      android:textSize="16sp"
+                                      android:paddingLeft="4dp"
+                                      android:background="@null"
+                                      android:textColor="#999999"
+                                      android:maxLength="18"
+                                      android:textCursorDrawable="@drawable/pen"
+                                      android:textColorHint="#c9c9c9"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="0dp"
+                              android:layout_marginTop="30dp"
+                              android:layout_marginBottom="30dp"
+                              android:gravity="center"
+                            android:layout_weight="1">
+                    <Button android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/real_btn"
+                            android:background="@drawable/realname_btn_bg"/>
+
+                </LinearLayout>
+               <LinearLayout android:layout_width="fill_parent"
+                             android:layout_height="0dp"
+                             android:layout_weight="1"
+                             android:paddingLeft="20dp"
+                             android:paddingRight="20dp"
+                             android:paddingBottom="10dp"
+                        android:orientation="vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                            android:text="实名认证后，账户信息更安全，我们将严格保密"
+                            android:textSize="16sp"
+                            android:textColor="#c9c9c9"/>
+                   <TextView android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:text="认证姓名会成为保定银行卡默认姓名，且无法修改，请慎重填写"
+                             android:textSize="16sp"
+                             android:textColor="#c9c9c9"/>
+                   <TextView android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:text="有任何疑问，请联系客服400-843-6868"
+                             android:textSize="16sp"
+                             android:textColor="#c9c9c9"/>
+
+               </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

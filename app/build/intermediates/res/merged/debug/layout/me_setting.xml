@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:background="#f8f8f8">
+    <!--适配透明 添加 android:paddingTop="25dp"-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1.2"
+                  android:paddingTop="25dp"
+                  android:background="@drawable/accont"
+                  android:orientation="vertical"
+                  android:gravity="center_vertical"
+                  android:paddingBottom="10dp">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                        android:layout_weight="1"
+                      android:layout_marginLeft="21dp"
+                      android:id="@+id/available_balance"
+                      android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="#ffffff"
+                          android:textSize="15sp"
+                          android:gravity="left|bottom"
+                          android:text="可用余额"
+                          android:paddingBottom="13dp"
+                          />
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:layout_marginRight="20dp"
+                              android:gravity="right|center_vertical"
+                            android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:textColor="#ffffff"
+                              android:textSize="27sp"
+                              android:singleLine="true"
+                              android:gravity="right|bottom"
+                              android:paddingBottom="10dp"
+                              android:id="@+id/available_balance_value"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:textColor="#ffffff"
+                              android:textSize="15sp"
+                              android:gravity="right|bottom"
+                              android:layout_marginLeft="5dp"
+                              android:paddingBottom="15dp"
+                              android:singleLine="true"
+                              android:text="元"/>
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dip"
+              android:id="@+id/accont_delete"
+                android:background="@drawable/accont_delete"/>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="21dp"
+                      android:id="@+id/total_assets"
+                      android:orientation="horizontal"
+              >
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="#ffffff"
+                          android:gravity="left"
+                          android:textSize="15sp"
+                          android:text="总资产"
+                        android:paddingTop="17dp"/>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:layout_marginRight="20dp"
+                          android:gravity="right|center_vertical"
+                          android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="#ffffff"
+                          android:textSize="22sp"
+                          android:id="@+id/balance"
+                          android:gravity="right"
+                          android:paddingTop="10dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:textColor="#ffffff"
+                          android:textSize="15sp"
+                          android:layout_marginLeft="5dp"
+                          android:gravity="right"
+                          android:singleLine="true"
+                          android:paddingTop="15dp"
+                          android:text="元"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal">
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingLeft="10dp"
+
+                          android:gravity="center">
+                <ImageButton android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/withdrawals_btn"
+                        android:background="@drawable/take_cash"/>
+                <ImageButton android:layout_width="152dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/login_btn"
+                        android:visibility="gone"
+                        android:background="@drawable/login_btn_belong_account_icon"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                    android:paddingRight="10dp">
+                <ImageButton android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/recharge_btn"
+                        android:background="@drawable/save_cash"/>
+                <ImageButton android:layout_width="152dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/register_btn"
+                        android:visibility="gone"
+                        android:background="@drawable/register_btn_belong_account_icon"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:overScrollMode="never"
+            android:scrollbars="none" >
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#f8f8f8"
+                      android:orientation="vertical">
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#ffffff"
+                          android:orientation="vertical">
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="1px"
+                          android:background="#d0d0d0"/>
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:f_text="投资券"
+                        app:draw_left="@drawable/invest_tick"
+                        android:id="@+id/invest_tick"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+
+                        />
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="1px"
+                          android:layout_marginLeft="10dp"
+                          android:background="#d0d0d0"/>
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:f_text="推荐码"
+                        app:draw_left="@drawable/recommend_code"
+                        android:id="@+id/recommend_code"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                            android:layout_marginTop="25dp">
+                <!--<View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:f_text="收益日历"
+                        app:draw_left="@drawable/calendar"/>-->
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:background="#ffffff"
+                              android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                    <com.yeepbank.android.widget.LayoutInSetting
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:draw_left="@drawable/invest_record"
+                            app:f_text="投资记录"
+                            android:id="@+id/investment_record"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"/>
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="1px"
+                          android:layout_marginLeft="10dp"
+                          android:background="#d0d0d0"/>
+
+                    <com.yeepbank.android.widget.LayoutInSetting
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:f_text="资金流水"
+                            app:draw_left="@drawable/running_account"
+                            android:id="@+id/running_account"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+
+                            />
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="#ffffff"
+                          android:layout_marginTop="25dp">
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:draw_left="@drawable/bank_card"
+                        app:f_text="银行卡"
+                        android:id="@+id/bank_card_list"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:layout_marginLeft="10dp"
+                      android:background="#d0d0d0"/>
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:f_text="设置"
+                        app:draw_left="@drawable/setting"
+                        android:id="@+id/setting"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                    android:text="客服电话 400-843-6868"
+                    android:textSize="15sp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="15dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#4ea9de"
+                    android:id="@+id/company_telephone"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

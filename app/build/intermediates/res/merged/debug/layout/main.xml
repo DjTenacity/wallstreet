@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:background="#fff"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+        <com.yeepbank.android.widget.GuidePage
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/guide"/>
+        <!--<LinearLayout android:layout_width="fill_parent"-->
+                      <!--android:layout_height="wrap_content"-->
+                      <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_horizontal|center_vertical"-->
+                <!--android:id="@+id/dots_layout"/>-->
+
+
+    <com.yeepbank.android.widget.CircleImage
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            app:resource="@drawable/b1"
+            app:radius="100dp"
+            android:id="@+id/circle_img"/>
+    <ProgressBar android:layout_width="fill_parent"
+                 android:layout_height="10dp"
+                 android:layout_marginTop="20dp"
+                 android:id="@+id/progress"
+                 android:layout_margin="20dp"
+                 android:max="100"
+                 style="@style/download_style"/>
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="50dp"
+              android:textColor="#ff080bff"
+            android:id="@+id/test_pass"/>
+    <EditText android:layout_width="fill_parent" android:layout_height="50dp"
+            android:id="@+id/input_pass" android:textColor="#000"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="加密"  android:id="@+id/pass_btn"/>
+
+
+
+</LinearLayout>
+

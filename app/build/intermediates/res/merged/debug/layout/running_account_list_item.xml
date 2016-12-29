@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="5dp"
+              android:paddingBottom="3dp"
+              android:id="@+id/full_content"
+              android:background="#ffffff">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="left|center_vertical"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="提现时间:"
+
+                              android:textColor="#999999"
+                              android:visibility="gone"
+                              android:id="@+id/apply_time"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="2016-03-15"
+                              android:textColor="#666666"
+                              android:textSize="12sp"
+                                android:id="@+id/happen_date"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="15:52:21"
+                              android:textSize="12sp"
+                              android:textColor="#999999"
+                              android:id="@+id/happen_time"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+
+                          android:text="15:52:21"
+                          android:textSize="12sp"
+                          android:textColor="#999999"
+                          android:id="@+id/withdraw_requestDatetime"
+                        android:visibility="gone"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerInParent="true"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="10,000,00.00"
+                              android:textColor="#666666"
+                              android:gravity="center"
+                              android:textSize="16sp"
+                              android:id="@+id/happen_money"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:gravity="center"
+                              android:text="元"
+                              android:textColor="#666666"
+                              android:textSize="12sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_alignParentRight="true"
+                              android:layout_centerInParent="true"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="失败"
+                              android:textSize="12sp"
+                              android:textColor="#fa886d"
+                              android:id="@+id/happen_state"/>
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="fill_parent"
+                               android:id="@+id/open_btn"
+                               android:layout_marginLeft="2dp"
+
+                                android:src="@drawable/arrow_down_gray"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="right|center_vertical"
+                  android:id="@+id/withdrawals_content"
+                  android:paddingBottom="5dp"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="出款时间:"
+
+                          android:textColor="#666666"
+                          android:id="@+id/give_text"
+                          android:textSize="12sp"/>
+                <!--<TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="2016-03-15"
+                          android:textColor="#666666"
+                          android:textSize="12sp"
+                          android:id="@+id/finish_date"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:text="15:52:21"
+                          android:textSize="12sp"
+                          android:textColor="#999999"
+                          android:id="@+id/finish_time"/>-->
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+
+                          android:text="15:52:21"
+                          android:textSize="12sp"
+                          android:textColor="#666666"
+                          android:id="@+id/withdraw_approveDatetime"/>
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="fill_parent"
+
+                           android:layout_marginLeft="2dp"
+                            android:visibility="invisible"
+                           android:src="@drawable/arrow_down_gray"/>
+            </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="right|center_vertical"
+                  android:orientation="horizontal"
+                  >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:text="* 服务器异常"
+                      android:textSize="12sp"
+                      android:textColor="#fa886d"
+                      android:maxEms="20"
+                      android:singleLine="true"
+                      android:ellipsize="end"
+                      android:id="@+id/fail_reason"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:layout_marginLeft="2dp"
+                       android:visibility="invisible"
+                       android:src="@drawable/arrow_down_gray"/>
+            </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        <ImageView android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/split_line_project_more_detail"
+                    android:layout_marginLeft="5dp"
+                   android:layout_marginRight="5dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fff"
+              android:paddingLeft="3dp"
+              android:paddingRight="3dp"
+              >
+    <LinearLayout android:layout_width="0dp"
+                   android:layout_height="98dp"
+                   android:layout_weight="2"
+                   android:id="@+id/coupon_center_item_left_layout"
+                    android:orientation="vertical"
+                    android:background="@drawable/coupon_un_left">
+        <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="21dp"
+                       >
+                <TextView android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="满减券"
+                           android:textSize="15sp"
+                           android:textColor="#999999"
+                           android:id="@+id/battle_coupon_type"
+                           android:gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="≥6个月"
+                      android:textSize="13sp"
+                      android:id="@+id/battle_coupon_date"
+                      android:textColor="#999999"
+                      android:gravity="right"
+                      android:paddingRight="20dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2"
+                      android:orientation="horizontal"
+                      android:gravity="center_horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="50"
+                      android:textSize="23sp"
+                      android:textColor="#666666"
+                      android:id="@+id/battle_coupon_account"
+                      />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="元"
+                      android:textSize="10sp"
+                      android:textColor="#666666"
+                      android:id="@+id/battle_coupon_account_danwei"
+                      />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="最低投资1000元"
+                      android:textSize="10sp"
+                      android:textColor="#999999"
+                      android:paddingBottom="6dp"
+                      android:paddingLeft="20dp"
+                      android:id="@+id/battle_coupon_limit"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="98dp"
+                  android:layout_weight="1"
+                  android:id="@+id/coupon_center_item_right_layout"
+                  android:orientation="vertical"
+                  android:background="@drawable/coupon_un_right">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="21dp"
+
+                      android:gravity="center_vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="注册奖励"
+                      android:textSize="15sp"
+                      android:textColor="#ffffff"
+                      android:gravity="center_horizontal"
+                      android:id="@+id/battle_coupon_title"
+
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2.5"
+                        android:orientation="vertical"
+                        android:id="@+id/battle_coupon_keyong_layout"
+
+                >
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:layout_marginTop="5dp"
+                      android:id="@+id/battle_coupon_riqi_layout"
+                      >
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="8月25日"
+                      android:textSize="13sp"
+                      android:textColor="#ffffff"
+                      android:gravity="center_horizontal"
+                      android:id="@+id/battle_coupon_riqi"
+                    />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1.5"
+                      android:gravity="center_vertical"
+                      android:paddingBottom="8dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:textColor="#ffffff"
+                      android:gravity="center_horizontal"
+                      android:id="@+id/battle_coupon_status"
+                    />
+        </RelativeLayout>
+        </LinearLayout>
+
+        <!--<LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2.5"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:visibility="gone"
+                      android:id="@+id/battle_coupon_un_keyong">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="已经领取"
+                      android:textSize="20sp"
+                      android:textColor="#ffffff"
+                      android:gravity="center_horizontal"
+                      android:id="@+id/battle_coupon_un_keyong_text"
+
+                    />
+            </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

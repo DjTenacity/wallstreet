@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="2015"
+                  android:id="@+id/calendar_title"
+                  android:textColor="#ffffff"
+                  android:background="@drawable/calendar_selected_title"
+                  android:textSize="18sp"/>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/calendar_selected_body"
+                      android:id="@+id/calendar_body"
+                      android:gravity="center"
+                      android:layout_weight="3"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:id="@+id/calendar_body_month"
+                      android:text="9"
+                      android:textSize="60sp"
+                      android:textColor="#ff5965ff"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:id="@+id/calendar_body_unit"
+                      android:text="月"
+                      android:textSize="18sp"
+                      android:textColor="#ff5965ff"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

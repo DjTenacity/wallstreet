@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="investment_record_item_text">
+        <item>待结标</item>
+        <item>还款中</item>
+        <item>已还款</item>
+    </string-array>
+    <string-array name="item_text">
+        <item>项目详情</item>
+        <item>投资列表</item>
+        <item>还款记录</item>
+    </string-array>
+    <string-array name="item_text1">
+        <item>项目详情</item>
+        <item>投资列表</item>
+    </string-array>
+    <string-array name="item_text_trans">
+        <item>项目详情</item>
+        <item>投资还款计划</item>
+    </string-array>
+    <string-array name="running_account">
+        <item>充值</item>
+        <item>提现</item>
+    </string-array>
+    <string-array name="server_url">
+        <item>http://app.yeepbank.xyz</item>
+        <item>http://test.app.yeepbank.xyz</item>
+        <item>http://app.yeepbank.com</item>
+    </string-array>
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="activity_bg">#ffffff</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="app_bg_color">#FF0000</color>
+    <color name="app_title_color">#fc8403</color>
+    <color name="backColor">#2000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0066dd</color>
+    <color name="cash_rechange">#5b87e7</color>
+    <color name="dark_gray_line">#6e6e6e</color>
+    <color name="dark_hint_color">#ff6b6b6b</color>
+    <color name="darkgrey">#696969</color>
+    <color name="dialog_tip_color">#AFAFAF</color>
+    <color name="dialog_title_color">#2967A8</color>
+    <color name="dialog_verify_code_btn_disable">#DEDEDE</color>
+    <color name="dialog_verify_code_btn_enable">#4EA1F9</color>
+    <color name="edittext_line">#dbdbdb</color>
+    <color name="gold">#000000</color>
+    <color name="green">#327e26</color>
+    <color name="grey">#E8E8E8</color>
+    <color name="grey_line">#cccccc</color>
+    <color name="hint_color">#ffa1a1a1</color>
+    <color name="light_gray">#999999</color>
+    <color name="light_gray_bg">#ebebeb</color>
+    <color name="light_gray_line">#cacaca</color>
+    <color name="light_gray_text">#888</color>
+    <color name="light_green">#4baf3c</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="light_red">#e25050</color>
+    <color name="line">#c9c9c9</color>
+    <color name="lucensy">#00000001</color>
+    <color name="main_bg">#c1c1c1</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="red">#fe0202</color>
+    <color name="regBackGround">#ffd2d6d7</color>
+    <color name="tab_title_color">#646464</color>
+    <color name="tab_title_color_2">#323232</color>
+    <color name="textcolor_tobeperfect">#e72f16</color>
+    <color name="title">#666666</color>
+    <color name="tool_bar">#ffffff</color>
+    <color name="trade_add">#1d802a</color>
+    <color name="trade_reduce">#f66d22</color>
+    <color name="trans">#50000000</color>
+    <color name="translucency">#e0000000</color>
+    <color name="transparent">#e0FFFFFF</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="unchose">#cAcAcA</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ChangeItemWithAnimationLayout"><attr format="integer" name="pageStyle"/></declare-styleable>
+    <declare-styleable name="CircleImage"><attr format="reference" name="resource"/><attr format="dimension" name="radius"/></declare-styleable>
+    <declare-styleable name="CircleImage2"><attr format="color" name="cb_color"/><attr format="reference" name="draw_resource"/><attr format="dimension" name="top"/></declare-styleable>
+    <declare-styleable name="LayoutInSetting"><attr format="string" name="f_text"/><attr format="string" name="s_text"/><attr format="reference" name="t_img"/><attr format="reference" name="draw_left"/><attr format="boolean" name="is_show_default"/><attr format="string" name="text_color"/></declare-styleable>
+    <declare-styleable name="LoginFrame"><attr format="float" name="show_width"/><attr format="float" name="show_height"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="boolean" name="push"/></declare-styleable>
+    <declare-styleable name="RefreshScrollerView"><attr format="integer" name="speed"/><attr format="integer" name="sensitivity"/></declare-styleable>
+    <declare-styleable name="ScrollTextView"><attr format="integer" name="targetNumber"/><attr format="integer" name="delay"/></declare-styleable>
+    <declare-styleable name="SwitchBtn"><attr format="boolean" name="is_open"/><attr format="color" name="bg_color"/><attr format="color" name="font_color"/><attr format="string" name="btn_name"/></declare-styleable>
+    <declare-styleable name="SwitchItemLayout"><attr format="string" name="btn_left"/><attr format="string" name="btn_right"/></declare-styleable>
+    <declare-styleable name="gridPasswordView"><attr format="color|reference" name="textColor"/><attr format="dimension" name="textSize"/><attr format="color" name="lineColor"/><attr format="color" name="gridColor"/><attr format="dimension" name="lineWidth"/><attr format="integer" name="passwordLength"/><attr format="string" name="passwordTransformation"/><attr format="enum" name="passwordType">
+            <enum name="numberPassword" value="0"/>
+            <enum name="textPassword" value="1"/>
+            <enum name="textVisiblePassword" value="2"/>
+            <enum name="textWebPassword" value="3"/>
+        </attr></declare-styleable>
+    <dimen name="actionbar_layout_height">48dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height">60dp</dimen>
+    <dimen name="left_dimen">10dp</dimen>
+    <dimen name="top_dimen">15dp</dimen>
+    <item name="battle_coupon" type="id"/>
+    <item name="current_date" type="id"/>
+    <item name="daily_increase" type="id"/>
+    <item name="detail_item" type="id"/>
+    <item name="invest" type="id"/>
+    <item name="invest_list" type="id"/>
+    <item name="invest_repayment_plan" type="id"/>
+    <item name="item_img" type="id"/>
+    <item name="item_layout" type="id"/>
+    <item name="left_date" type="id"/>
+    <item name="me" type="id"/>
+    <item name="more_transform_project" type="id"/>
+    <item name="net_error" type="id"/>
+    <item name="progress_bg" type="id"/>
+    <item name="project_detail" type="id"/>
+    <item name="project_list" type="id"/>
+    <item name="recharge" type="id"/>
+    <item name="repayed" type="id"/>
+    <item name="repaying" type="id"/>
+    <item name="repayment_plan" type="id"/>
+    <item name="right_date" type="id"/>
+    <item name="risk_control" type="id"/>
+    <item name="waitEnd" type="id"/>
+    <item name="withdrawal" type="id"/>
+    <string name="ACCESS_ALL">accept_all</string>
+    <string name="ACCESS_BIDDING">accept_bidding</string>
+    <string name="ACCESS_DEPOSIT">accept_deposit</string>
+    <string name="ACCESS_GRANT_COUPON">accept_grant_coupon</string>
+    <string name="ACCESS_NEW_PROJECT">accept_new_project</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_bank_warn">•  为保证资金安全，绑定快捷支付银行卡成功后，将只能通过快捷卡提现</string>
+    <string name="add_invest_tick_push">开启后，当有新增投资券时，将会通知你。</string>
+    <string name="app_name">易宝金融</string>
+    <string name="daily_increase">天天盈</string>
+    <string name="format_error">输入金额格式错误</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instruction">"        "易宝金融成立于2013年，隶属于国内知名互联网
+        金融企业易宝集团旗下，为广大机构、企业与个人投
+        资者提供“安全、专业、便捷”的综合性金融资产交易
+        相关服务及投融资顾问服务，实现投资者的财富梦想。</string>
+    <string name="invest">理财投资</string>
+    <string name="invest_repay_push">开启后，当你已投资的项目结标、还款时，将会通知你。</string>
+    <string name="login">登录</string>
+    <string name="me">我的账户</string>
+    <string name="msg_load_ing">加载中...</string>
+    <string name="net_error">请求异常，服务端未响应</string>
+    <string name="new_project_push">开启后，当有新项目发布时，将会通知你（不包括
+        天天盈、新手项目。)</string>
+    <string name="no_msg">暂无信息</string>
+    <string name="pay_by_card_instruction_one">•　刷卡充值是易宝金融新推出的一种充值方式；</string>
+    <string name="pay_by_card_instruction_three">•　单笔充值最低10元，单卡单笔充值上限5万元，单卡单日充值上限15万元；</string>
+    <string name="pay_by_card_instruction_two">•　刷卡充值通过手机蓝牙连接刷卡器，连接成功后可以使用
+        国内主流银行的借记卡、贷记卡刷卡充值.</string>
+    <string name="please_add_bankcard_at_first">请先添加银行卡</string>
+    <string name="search_recharge_result_fail">充值失败</string>
+    <string name="search_recharge_result_success">充值成功</string>
+    <string name="search_recharge_result_unknow">银行接口繁忙，正在继续为您充值，请关注余额变动</string>
+    <string name="setting">设置</string>
+    <string name="setting_msg">关闭后您将无法再接收到提现到账、项目还款等信息，建议开启。</string>
+    <string name="withdraw_purcharge_push">您可以设置是否需要在每次充值、提现成功或者失败后获得通知。</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="APP_BASE_STYLE" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="ActionBarIconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="ActionBarLeftIconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ExistWindow" parent="android:Theme.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="FontStyle_14sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="FontStyle_18sp_black">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="GridPasswordView"/>
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="AppBaseTheme">
+
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="bank_list">
+        <item name="android:windowEnterAnimation">@anim/activity_from_small_to_big</item>
+        <item name="android:windowExitAnimation">@anim/activity_from_big_to_small</item>
+    </style>
+    <style name="bind_bank_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+
+        <item name="android:background">#ffdedede</item>
+    </style>
+    <style name="bind_bank_card_frame">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">320dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">15dp</item>
+
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/round_bg_gray</item>
+    </style>
+    <style name="daily_progress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:progressDrawable">@drawable/daily_progress</item>
+    </style>
+    <style name="detail_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:textColor">@color/dark_hint_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground"> @android:color/transparent </item>
+    </style>
+    <style name="download_style" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:maxHeight">15dip</item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:progressDrawable">@drawable/horizontal_draw</item>
+    </style>
+    <style name="exist_style">
+        <item name="android:windowEnterAnimation">@anim/activity_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/activity_out_from_bottom</item>
+    </style>
+    <style name="forget_password_frame">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">200dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">15dp</item>
+
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/round_bg_gray</item>
+    </style>
+    <style name="gradient_progress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:progressDrawable">@drawable/horizontal_bg</item>
+    </style>
+    <style name="help_msg_style">
+        <item name="android:windowEnterAnimation">@anim/show_msg_in</item>
+        <item name="android:windowExitAnimation">@anim/hide_msg_in</item>
+    </style>
+    <style name="input_password">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">-1dp</item>
+        <item name="android:background">@drawable/input_password_bg</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="invest_list_item_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textColor">#c1c1c1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="navigation_bar_right_img_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="password_in_panel_style">
+
+        <item name="android:maxLength">1</item>
+        <item name="android:password">true</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="project_detail_header_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textColor">#3887BE</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="push_style_setting">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">1.5dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="push_words_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+    <style name="radio_button_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/hint_color</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="scroll_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="targetNumber">3</item>
+        <item name="android:delay">300</item>
+    </style>
+    <style name="sort_exist_style">
+
+        <item name="android:windowExitAnimation">@anim/out_with_small_sacle</item>
+    </style>
+    <style name="switch_item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">@drawable/round_bg_radius_big_gray</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="unknow_progress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">true</item><!--true表示不确定进度，false表示确定进度-->
+        <item name="android:maxHeight">5dip</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:progressDrawable">@drawable/horizontal_draw</item>
+        <item name="android:indeterminateDrawable">@drawable/indeterminate_true</item>
+    </style>
+    <style name="update_btn_style_left">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/update_left_btn_style</item>
+    </style>
+    <style name="update_btn_style_right">
+        <item name="android:textColor">#3887BE</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/update_right_btn_style</item>
+    </style>
+    <style name="ver_horizontal_black">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#cccccc</item>
+    </style>
+</resources>

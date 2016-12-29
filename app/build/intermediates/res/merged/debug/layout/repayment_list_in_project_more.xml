@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView style="@style/invest_list_item_style" android:id="@+id/repayment_date"/>
+                        <TextView style="@style/invest_list_item_style" android:id="@+id/principal"/>
+                        <TextView style="@style/invest_list_item_style" android:id="@+id/interest"/>
+                        <TextView style="@style/invest_list_item_style" android:id="@+id/status"/>
+            </LinearLayout>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1dp"
+                  android:background="#e1e1e1"
+                  android:layout_marginTop="2dp"
+                  android:layout_marginBottom="2dp"/>
+</LinearLayout>

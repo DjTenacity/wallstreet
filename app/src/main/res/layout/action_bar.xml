@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:paddingTop="25dp"
+                android:background="#3887BE"
+                android:id="@+id/navigation_bar">
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:minWidth="40dp"
+                          android:id="@+id/back_layout"
+                          android:gravity="center_vertical"
+                          android:paddingLeft="5dp"
+                          android:orientation="horizontal">
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="fill_parent"
+                               android:layout_gravity="center_vertical|right"
+                               android:id="@+id/back_logo"
+                                android:src="@drawable/back_src"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="fill_parent"
+                              android:text=""
+                              android:textColor="#ffffff"
+                              android:gravity="center_vertical"
+                              android:textSize="14sp"
+                              android:id="@+id/pre_text"/>
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:id="@+id/label_text"/>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:layout_toRightOf="@+id/back_layout"
+                          android:layout_toLeftOf="@+id/share"
+                        android:gravity="center">
+                <com.yeepbank.android.widget.SwitchItemLayout
+                        style="@style/switch_item_layout"
+                        android:visibility="gone"
+                        app:btn_left="还款中"
+                        app:btn_right="已还款"
+                        android:id="@+id/switch_project_bar"/>
+            </LinearLayout>
+
+
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/withdrawals"
+                       android:id="@+id/withdrawals_logo"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/recharge"
+                       android:id="@+id/recharge_logo"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/share_logo_white"
+                       android:id="@+id/share"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/screening_icon"
+                       android:id="@+id/screening"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/question"
+                       android:id="@+id/question_icon"/>
+
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/information_icon"
+                       android:id="@+id/information"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/raiders"
+                       android:id="@+id/raiders"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/not_used_icon"
+                       android:id="@+id/not_used"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:src="@drawable/credit_card"
+                       android:id="@+id/pay_by_card_btn"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:id="@+id/question_icon_left"
+                       android:src="@drawable/question"/>
+            <ImageView style="@style/navigation_bar_right_img_style"
+                       android:id="@+id/me_coupon"
+                       android:src="@drawable/coupon_icon_right_next"
+                    />
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+
+        <LinearLayout style="@style/bind_bank_card">
+
+                <LinearLayout style="@style/bind_bank_card_frame"
+                              android:id="@+id/withdrawals_layout"
+                            android:tag="提现">
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="可用余额 ："
+                                  android:textSize="14sp"
+                                  android:textColor="#666666"/>
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:id="@+id/available_balance"
+                                  android:textSize="14sp"
+                                  android:textColor="#666666"/>
+                    </LinearLayout>
+                    <!--<LinearLayout android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/round_bg"
+                                    android:orientation="horizontal"
+                            >
+                    <EditText android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:background="@null"
+                              android:gravity="left|center_vertical"
+                              android:hint="建议单次提现金额不低于10元"
+                              android:textSize="15sp"
+                              android:textColor="#b5333333"
+                              android:textColorHint="#b5bebebe"
+                              android:inputType="numberDecimal"
+                              android:digits="0123456789."
+                              android:paddingTop="10dp"
+                              android:paddingBottom="10dp"
+                              android:textCursorDrawable="@drawable/pen"
+                              android:id="@+id/withdrawals_money"
+                              android:paddingLeft="6dp"/>
+                        <ImageButton android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:id="@+id/all_invest_btn"
+                                     android:enabled="false"
+
+                                     android:background="@drawable/all_invest_btn_not_activated_icon"/>
+                    </LinearLayout>-->
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:gravity="right|center_vertical"
+                                  android:background="@drawable/round_bg"
+                                  android:layout_marginTop="10dp"
+                                  android:orientation="horizontal">
+                        <EditText android:layout_width="wrap_content"
+                                  android:layout_height="45dp"
+                                  android:hint="建议单次提现金额不低于10元"
+                                  android:layout_weight="1"
+                                  android:inputType="number"
+                                  android:gravity="left|center_vertical"
+                                  android:background="@null"
+                                  android:textSize="15sp"
+                                  android:textColor="#b5333333"
+                                  android:textColorHint="#b5bebebe"
+                                  android:digits="0123456789."
+                                  android:paddingTop="10dp"
+                                  android:paddingBottom="10dp"
+                                  android:textCursorDrawable="@drawable/pen"
+                                  android:id="@+id/withdrawals_money"
+                                  android:paddingLeft="6dp"/>
+                        <ImageButton android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:id="@+id/all_withdrawals_btn"
+                                     android:enabled="false"
+                                     android:background="@drawable/all_withdrawals_btn_not_activated_icon"
+                                    android:layout_marginRight="3dp"/>
+                    </LinearLayout>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="10dp"
+                              android:text="提现到银行卡"
+                              android:textSize="15sp"
+                              android:id="@+id/withraw_tv"
+                              android:textColor="#b5bebebe"/>
+                    <RelativeLayout android:layout_width="fill_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="10dp"
+                                    android:id="@+id/bank_list_layout"
+                                    android:background="@drawable/round_bg">
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="fill_parent"
+                                  android:textSize="15sp"
+                                  android:textColor="#b5333333"
+                                  android:layout_centerInParent="true"
+                                  android:id="@+id/bank_card_name_text"
+                                  android:paddingTop="10dp"
+                                  android:paddingBottom="10dp"
+                                  android:paddingLeft="6dp"/>
+                        <!--<LinearLayout android:layout_width="wrap_content"
+                                      android:layout_height="fill_parent"
+                                      android:gravity="center"
+                                      android:layout_marginRight="20dp"
+                                      android:layout_alignParentRight="true">
+                            <ImageView android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:id="@+id/direction_img"
+                                       android:src="@drawable/arrow_down_icon"/>
+                        </LinearLayout>-->
+
+                    </RelativeLayout>
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:gravity="center_vertical"
+                                  android:layout_marginTop="10dp"
+                                  android:id="@+id/add_bank_card"
+                                  android:orientation="horizontal">
+                        <ImageView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                   android:layout_marginRight="5dp"
+                                android:src="@drawable/add_icon"/>
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:text="提现到新银行卡"
+                                  android:textSize="15sp"
+                                  android:textColor="#c9c9c9"/>
+                    </LinearLayout>
+
+                    <Button android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:id="@+id/withdrawals_sure_btn"
+                            android:enabled="false"
+                            android:background="@drawable/withdrawals_sure_not_activation"
+                            android:layout_marginTop="45dp"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="10dp"
+                              android:text="*预计下一个工作日到账"
+                              android:gravity="right"
+                              android:textSize="13sp"
+                              android:textColor="#7e333333"/>
+
+                </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="progress_bg" type="id"/>
+    <item name="invest" type="id"/>
+    <item name="daily_increase" type="id"/>
+    <item name="me" type="id"/>
+    <item name="project_list" type="id"/>
+    <item name="battle_coupon" type="id"/>
+
+    <item name="repaying" type="id"/>
+    <item name="repayed" type="id"/>
+    <item name="waitEnd" type="id"/>
+    <item name="current_date" type="id"/>
+    <item name="left_date" type="id"/>
+    <item name="right_date" type="id"/>
+    <item name="invest_repayment_plan" type="id"/><!--投资还款计划-->
+
+
+    <item name="project_detail" type="id"/>
+    <item name="risk_control" type="id"/>
+    <item name="invest_list" type="id"/>
+    <item name="repayment_plan" type="id"/>
+    <item name="item_layout" type="id"/>
+    <item name="item_img" type="id"/>
+
+    <item name="recharge" type="id"/>
+    <item name="withdrawal" type="id"/>
+
+
+
+    <item name="more_transform_project" type="id"/>
+
+    <item name="net_error" type="id"/>
+
+    <item name="detail_item" type="id"/>
+
+</resources>

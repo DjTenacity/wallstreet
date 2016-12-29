@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f8f8f8">
+
+
+            <com.yeepbank.android.widget.RefreshScrollerView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/scroll_view"
+                    android:scrollbars="none"
+                    android:layout_marginBottom="6dp"
+                    app:speed="6"
+                    app:sensitivity="1">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <include layout="@layout/refresh_title"/>
+                <com.yeepbank.android.widget.GuidePage
+                        android:layout_width="fill_parent"
+                        android:layout_height="185dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/banner"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/invest_daily_increase_layout"
+                            android:orientation="vertical">
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+                                      android:id="@+id/invest_daily_increase"
+                                    android:visibility="gone">
+                            <include layout="@layout/invest_daily_increast"/>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/invest_speed_buy_layout"
+                              android:visibility="gone"
+                              android:orientation="vertical">
+                        <include layout="@layout/invest_speed_buy"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="26dp"
+                              android:layout_marginTop="5dp"
+                              android:layout_marginBottom="5dp"
+                              android:gravity="center"
+
+                            android:orientation="horizontal">
+                        <TextView android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="5dp"
+                                android:text="推荐项目"
+                                android:textSize="15sp"
+                                android:textColor="#666666"/>
+                        <LinearLayout android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="horizontal"
+                                      android:id="@+id/recommend_list"
+                                      android:layout_weight="1">
+                            <TextView android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="20dp"
+                                      android:gravity="right|center_vertical"
+                                      android:text="历史项目(0)"
+                                      android:layout_marginRight="5dp"
+                                      android:textSize="12sp"
+                                      android:id="@+id/total_count"
+                                      android:textColor="#999999"/>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/invest_recommend_layout"
+                            android:orientation="vertical">
+                        <!--<LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="5dp"
+                                      android:layout_marginRight="5dp"
+                                      android:orientation="horizontal">
+                            <include layout="@layout/invest_recommend_new"/>
+                            <include layout="@layout/invest_recommend"/>
+                        </LinearLayout>-->
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="26dp"
+                              android:layout_marginTop="5dp"
+                              android:layout_marginBottom="5dp"
+                              android:gravity="center"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:layout_marginLeft="5dp"
+                              android:text="债权转让"
+                              android:textSize="15sp"
+                              android:textColor="#666666"/>
+                    <TextView android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:layout_marginLeft="20dp"
+                              android:gravity="right|center_vertical"
+                              android:text="更多(0)"
+                              android:layout_marginRight="5dp"
+                              android:id="@+id/more_transform"
+                              android:textSize="12sp"
+                              android:textColor="#999999"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/assignment_rights"
+                              android:paddingLeft="5dp"
+                              android:paddingRight="3dp"
+                              android:orientation="vertical">
+
+                </LinearLayout>
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="50dp"
+                          android:layout_alignParentBottom="true"
+                          android:textSize="14sp"
+                          android:textColor="#3887BE"
+                          android:gravity="center"
+                          android:id="@+id/advise"/>
+
+            </LinearLayout>
+
+
+
+            </com.yeepbank.android.widget.RefreshScrollerView>
+
+
+</RelativeLayout>

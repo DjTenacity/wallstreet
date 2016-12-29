@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+            <include layout="@layout/action_bar" android:id="@+id/action_bar"/>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1dip"
+                  android:background="#313131"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        <Button android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#fff"
+                                android:text="还款中(256)"
+                                android:textColor="#333333"/>
+                        <Button android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#fff"
+                                android:text="已还款(1335)"
+                                android:textColor="#333333"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:id="@+id/recommend_item"
+                                    android:layout_marginTop="10dp"
+                                    android:text="推荐项目列表"
+                                    android:background="#ffffff"
+                                    android:textColor="#aa313131"
+                                    android:paddingTop="20dp"
+                                    android:paddingBottom="20dp"
+                                    android:gravity="center"/>
+            </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="right"
+
+              android:orientation="vertical">
+        <LinearLayout android:orientation="vertical"
+            android:background="@drawable/transform_sort_icon"
+                      android:id="@+id/popu_window_view"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="139dp"
+            android:layout_height="178dp">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:id="@+id/default_sort"
+                          android:orientation="horizontal">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/sort_default_icon"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:text="默认排序"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/sort_panel_split"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:id="@+id/annual_interest_rate"
+                          android:orientation="horizontal">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/annual_interest_rate"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:text="年化利率"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/sort_panel_split"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:id="@+id/expected_return"
+                          android:orientation="horizontal">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/expected_return"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:text="预期收益"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/sort_panel_split"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:id="@+id/project_duration"
+                          android:orientation="horizontal">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/project_duration"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:text="项目期限"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

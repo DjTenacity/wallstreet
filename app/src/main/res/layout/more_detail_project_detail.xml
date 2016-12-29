@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+                                      android:id="@+id/project_info_layout"
+                                      android:orientation="vertical">
+                            <include layout="@layout/project_info"/>
+                            <View android:layout_width="fill_parent" android:layout_height="0.5dp" android:background="#c1c1c1"/>
+                        </LinearLayout>
+
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:visibility="gone"
+                                    android:id="@+id/personal_layout">
+                            <include layout="@layout/personal_business"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:visibility="gone"
+                                      android:id="@+id/transfer_layout">
+                            <include layout="@layout/company_business_transfer"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:visibility="gone"
+                                      android:id="@+id/bidding_layout">
+                            <include layout="@layout/company_busniess_bidding"/>
+                        </LinearLayout>
+
+                        <View android:layout_width="fill_parent" android:layout_height="0.5dp" android:background="#c1c1c1"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+                                      android:paddingLeft="10dp"
+                                      android:paddingBottom="10dp"
+                                    android:orientation="vertical">
+                            <TextView android:layout_width="fill_parent"
+                                      android:layout_height="30dp"
+                                      android:gravity="left|center_vertical"
+                                      android:textColor="#3887BE"
+                                      android:text="借款信息"/>
+                            <LinearLayout android:layout_width="fill_parent"
+                                          android:layout_height="30dp"
+                                          android:orientation="horizontal"
+                                          android:gravity="left|center_vertical">
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:text="产品类型:"/>
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:id="@+id/product_type"
+                                          android:textColor="#999999"/>
+                            </LinearLayout>
+                            <LinearLayout android:layout_width="fill_parent"
+                                          android:layout_height="30dp"
+                                          android:orientation="horizontal"
+                                          android:gravity="left|center_vertical">
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:text="地区:"/>
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:id="@+id/product_location"
+                                          android:textColor="#999999"/>
+                            </LinearLayout>
+
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:layout_marginTop="10dp"
+                                          android:text="还款来源:"/>
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:id="@+id/repayment_resource"
+
+                                          android:textColor="#999999"/>
+
+
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:layout_marginTop="10dp"
+                                          android:text="信用评价:"/>
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:id="@+id/credit_comment"
+
+                                          android:textColor="#999999"/>
+
+                            <LinearLayout android:layout_width="fill_parent"
+                                          android:layout_height="30dp"
+                                          android:orientation="horizontal"
+                                          android:gravity="left|center_vertical">
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:text="借款用途:"/>
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:id="@+id/use_way"
+                                          android:textColor="#999999"/>
+                            </LinearLayout>
+
+                             <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                       android:layout_marginTop="10dp"
+                                          android:textColor="#999999"
+                                          android:text="借款说明:"/>
+                            <TextView android:layout_width="fill_parent"
+                                      android:layout_height="wrap_content"
+
+                                      android:id="@+id/explain"
+                                      android:textColor="#999999"/>
+
+                                    <TextView android:layout_width="wrap_content"
+                                              android:layout_height="wrap_content"
+                                              android:textColor="#999999"
+                                              android:layout_marginTop="10dp"
+                                              android:text="担保信息："/>
+                                    <TextView android:layout_width="fill_parent"
+                                              android:layout_height="wrap_content"
+                                              android:textColor="#999999"
+
+                                            android:id="@+id/guarantee_information"/>
+
+
+
+                                <TextView android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+                                          android:text="抵押信息："
+                                          android:layout_marginTop="10dp"
+                                          />
+                                <TextView android:layout_width="fill_parent"
+                                          android:layout_height="wrap_content"
+                                          android:textColor="#999999"
+
+                                          android:id="@+id/mortgage_information"/>
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+</LinearLayout>

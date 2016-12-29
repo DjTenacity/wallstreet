@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="5dp"
+              android:layout_marginTop="10dp"
+              android:background="#ffe2e2e2">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:id="@+id/detail_panel"
+                      android:background="@drawable/project_detail_bg"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="1"
+                          android:text="累计收益(元)"
+                          android:textSize="13sp"
+                          android:textColor="@color/title"
+                          android:gravity="center"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:layout_weight="1"
+                          android:textSize="30sp"
+                          android:textColor="#0B9AE9"
+                          android:id="@+id/cumulative_gain"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <View android:layout_width="fill_parent"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+
+                  android:layout_height="1dip"
+                  android:background="@drawable/dividing_line"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:paddingTop="5dp">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:orientation="vertical"
+                              android:gravity="center_vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="当期买入金额(元)"
+                              android:textSize="13sp"
+                              android:textColor="@color/title"
+                              android:gravity="center_horizontal"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="2dp"
+                              android:textSize="18sp"
+                              android:textColor="@color/light_gray"
+                              android:id="@+id/current_buying"
+                              android:gravity="center_horizontal"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:orientation="vertical"
+                              android:gravity="center_vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="下期续投金额(元)"
+                              android:textSize="13sp"
+                              android:textColor="@color/title"
+                              android:gravity="center_horizontal"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="2dp"
+                              android:textSize="18sp"
+                              android:textColor="#ffff993a"
+                              android:id="@+id/continued_investment"
+                              android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal">
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:orientation="vertical"
+                              android:gravity="center_vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="申请转出金额(元)"
+                              android:textSize="13sp"
+                              android:textColor="@color/title"
+                              android:gravity="center_horizontal"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="2dp"
+                              android:textSize="18sp"
+                              android:textColor="@color/title"
+                              android:id="@+id/application_transfer"
+                              android:gravity="center_horizontal"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:orientation="vertical"
+                              android:gravity="center_vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="项目剩余金额(元)"
+                              android:textSize="13sp"
+                              android:textColor="@color/title"
+                              android:gravity="center_horizontal"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="2dp"
+                              android:textSize="18sp"
+                              android:textColor="@color/title"
+                              android:id="@+id/residual_amount"
+                              android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="1"
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal">
+                <ImageButton android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:id="@+id/turn_out_btn"
+                        android:background="#ffffff"
+                        android:src="@drawable/turn_out_icon"/>
+                <ImageButton android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:id="@+id/purchase_btn"
+                        android:background="#ffffff"
+                        android:src="@drawable/purchase_icon"/>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

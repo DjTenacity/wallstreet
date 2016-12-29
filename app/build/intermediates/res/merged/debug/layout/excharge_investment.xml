@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              >
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+    <LinearLayout style="@style/bind_bank_card">
+
+            <LinearLayout style="@style/bind_bank_card_frame">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="优惠码兑换"
+                        android:textColor="#666666"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal"/>
+                <EditText android:layout_width="fill_parent"
+                          android:layout_height="45dp"
+                          android:layout_marginTop="20dp"
+                          android:background="@drawable/round_bg_gray"
+                          android:textCursorDrawable="@drawable/pen"
+                          android:hint="输入12位优惠码"
+                          android:textSize="16sp"
+                          android:textColor="#b5333333"
+                          android:textColorHint="#b5bebebe"
+                          android:paddingTop="10dp"
+                          android:paddingBottom="10dp"
+                          android:maxLength="12"
+                          android:id="@+id/discount_code"
+                          android:paddingLeft="6dp"/>
+
+                <Button android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/exchange_btn"
+                        android:enabled="false"
+                        android:background="@drawable/exchange_not_activated"
+                        android:layout_marginTop="30dp"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

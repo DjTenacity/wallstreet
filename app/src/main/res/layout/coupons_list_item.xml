@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--优惠券页面上部的列表页-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+            android:orientation="vertical">
+    <View android:layout_width="fill_parent" android:layout_height="8dp" android:background="#ffffff"/>
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                  android:minHeight="103dp"
+            android:orientation="horizontal">
+
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                        android:id="@+id/tick_layout_left"
+                        android:background="@drawable/full_coupon_left_icon">
+
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:paddingTop="5dp"
+                          android:paddingBottom="5dp"
+                          android:paddingRight="10dp"
+                          android:paddingLeft="10dp"
+                          android:orientation="vertical">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="0dp"
+                          android:text="充值10万奖励"
+                          android:textSize="14sp"
+                          android:textColor="#999999"
+                          android:id="@+id/coupon_description"
+                          android:gravity="center"
+                          android:layout_weight="1"/>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="0.5dp"
+                      android:layout_marginLeft="20dp"
+                      android:layout_marginRight="20dp"
+                      android:id="@+id/split_line"
+                      android:background="#99c1c1c1"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="0dp"
+                              android:orientation="horizontal"
+                              android:gravity="center"
+                              android:layout_weight="3">
+                    <LinearLayout android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:id="@+id/belongs_fc"
+                                  android:visibility="gone"
+                                  android:orientation="horizontal">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="20sp"
+                                  android:textColor="#a3a3a3"
+                                  android:text="满"/>
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="18sp"
+                                  android:textColor="#a3a3a3"
+                                  android:id="@+id/full_amount"
+                                  android:text="10000"/>
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="20sp"
+                                  android:textColor="#999999"
+                                  android:text="减"/>
+                    </LinearLayout>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="20sp"
+                              android:textColor="#999999"
+                              android:id="@+id/belongs_ia"
+                              android:visibility="gone"
+                              android:text="年化利率"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="30sp"
+                              android:layout_marginLeft="5dp"
+                              android:layout_marginRight="5dp"
+                              android:id="@+id/subtract_amount"
+                              android:textColor="#ff63aeff"
+                              android:text="100"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="20sp"
+                              android:textColor="#999999"
+                              android:id="@+id/number_after_words"
+                              android:text="元"/>
+
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="1"
+                              android:orientation="horizontal"
+                              android:gravity="right|center_vertical">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="#999999"
+                              android:textSize="12sp"
+                              android:text="有效期至："/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="#999999"
+                              android:textSize="12sp"
+                              android:id="@+id/expiration_date"
+                              android:text="2015-08-09"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:id="@+id/tick_choose"
+                       android:background="@drawable/tick_choose"/>
+        </RelativeLayout>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:background="@drawable/full_coupon_right_icon"
+                      android:id="@+id/tick_layout_right">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/tick_mark"
+                       android:src="@drawable/interest_rate_text"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

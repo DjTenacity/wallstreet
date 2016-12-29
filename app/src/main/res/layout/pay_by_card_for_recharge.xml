@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+
+    <LinearLayout style="@style/bind_bank_card">
+        <LinearLayout style="@style/bind_bank_card_frame">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="可用余额 : "
+                          android:textSize="15sp"
+                          android:textColor="#666666"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/available_balance_recharge"
+                          android:textSize="15sp"
+                          android:textColor="#666666"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="元"
+                          android:layout_marginLeft="2dp"
+                          android:textSize="15sp"
+                          android:textColor="#666666"/>
+            </LinearLayout>
+            <EditText android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:background="@drawable/round_bg"
+                      android:hint="充值金额"
+                      android:digits="0123456789."
+                      android:textSize="16sp"
+                      android:inputType="numberDecimal"
+                      android:textColor="#b5333333"
+                      android:textColorHint="#b5bebebe"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:paddingLeft="6dp"
+                      android:textCursorDrawable="@drawable/pen"
+                      android:id="@+id/recharge_money"/>
+            <ImageButton android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/link_pos_btn"
+                    android:background="@drawable/link_post_btn_style"
+                    android:layout_marginTop="45dp"/>
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="30dp"
+                      android:textColor="#999999"
+                    android:textSize="14sp"
+                    android:text="@string/pay_by_card_instruction_one"/>
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:textColor="#999999"
+                      android:textSize="14sp"
+                      android:visibility="gone"
+                      android:text="@string/pay_by_card_instruction_two"/>
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:textColor="#999999"
+                      android:textSize="14sp"
+                      android:text="@string/pay_by_card_instruction_three"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

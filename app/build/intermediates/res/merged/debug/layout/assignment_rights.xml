@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/suggest">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/page_title3"
+                    android:layout_alignParentTop="true">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#4ea9de"
+                  android:textSize="12sp"
+                  android:paddingTop="10dp"
+                  android:paddingLeft="10dp"
+                  android:layout_alignParentTop="true"
+                  android:id="@+id/project_name"
+                  android:text="债转 1021"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:visibility="invisible"
+                   android:src="@drawable/recommendnewicon"/>
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/page_title3"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="right|center_vertical"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#99333333"
+                      android:textSize="16sp"
+                      android:includeFontPadding="false"
+                      android:id="@+id/limit_day"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#99333333"
+                      android:textSize="12sp"
+                      android:paddingTop="2dp"
+                      android:text="天"
+                      android:includeFontPadding="false"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="-10dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="45sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:id="@+id/percent_integer"
+                      android:text="11"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="35sp"
+                      android:padding="0dp"
+                      android:id="@+id/percent_decimal"
+                      android:includeFontPadding="false"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="25sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:text="%"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+
+                      android:layout_marginTop="5dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:textColor="#666666"
+                      android:layout_marginRight="2dp"
+                      android:text="转让金额"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:textColor="#666666"
+                      android:id="@+id/transfer_amount"
+                      android:text=""/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

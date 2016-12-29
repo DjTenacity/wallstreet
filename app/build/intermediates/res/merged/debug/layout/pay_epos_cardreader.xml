@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <cn.com.kuaishua.sdk.base.ActionBarTextView
+        android:id="@+id/wallteActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_layout_height" >
+    </cn.com.kuaishua.sdk.base.ActionBarTextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="15dip"
+                android:layout_marginLeft="@dimen/left_dimen"
+                android:layout_marginRight="@dimen/left_dimen"
+                android:layout_marginTop="15dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/FontStyle_18sp_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:gravity="left"
+                    android:text="金额:" />
+
+                <TextView
+                    android:id="@+id/paymoney"
+                    style="@style/FontStyle_18sp_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:gravity="left"
+                    android:text="123123"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <View style="@style/ver_horizontal_black" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lanyalianjie" />
+            </LinearLayout>
+
+            <View style="@style/ver_horizontal_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:text="请连接您的刷卡器"
+                android:textColor="@color/grey_line"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View style="@style/ver_horizontal_black" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/listBluetooth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="60dip"
+                    android:background="@color/white"
+                    android:divider="@color/grey_line"
+                    android:dividerHeight="1px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/actionbar_layout_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/login_delete_qian"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="moreDevice"
+                android:orientation="horizontal"
+                android:singleLine="true" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminateDrawable="@drawable/frame_loading"
+                    android:progress="0"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/souShuoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="搜索设备"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:id="@+id/refresh_layout"
+                android:gravity="bottom"
+                android:layout_weight="1">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/direction_pic"
+                            android:visibility="gone"
+                           android:layout_centerInParent="true"
+                           android:layout_toLeftOf="@+id/text_content"
+                           android:src="@drawable/xlistview_arrow"/>
+                <ProgressBar android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:visibility="gone"
+                             android:id="@+id/progress"
+                             android:layout_centerInParent="true"
+                             android:layout_toLeftOf="@+id/text_content"
+                             style="?android:attr/progressBarStyleSmall"/>
+
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerInParent="true"
+                              android:id="@+id/text_content"
+                              android:gravity="center"
+                              android:orientation="vertical">
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:textColor="#666666"
+                              android:textSize="14sp"
+                              android:id="@+id/cmd_text"
+                              android:gravity="center_horizontal|center_vertical"
+                              android:text="下拉可刷新"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:textColor="#ff989898"
+                              android:textSize="16sp"
+                              android:id="@+id/update_text"
+                              android:visibility="gone"
+                              android:gravity="center_horizontal|center_vertical"
+                              android:text="暂未更新"/>
+                </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

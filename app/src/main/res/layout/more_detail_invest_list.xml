@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+<LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+              style="@style/project_detail_header_text_style"
+              android:paddingLeft="18dp"
+              android:text="投资人"/>
+    <TextView android:layout_width="wrap_content"
+              style="@style/project_detail_header_text_style"
+              android:text="投资金额（元）"/>
+    <TextView android:layout_width="wrap_content"
+              style="@style/project_detail_header_text_style"
+              android:text="投资时间"/>
+</LinearLayout>
+<View android:layout_width="fill_parent" android:layout_height="1dp"
+      android:background="@drawable/split_line_project_more_detail"
+      android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+<RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bond_frame">
+    <!--<com.yeepbank.android.widget.ListViewLeftBond-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:id="@+id/list_bond"/>-->
+
+    <com.yeepbank.android.widget.PullToRefresh
+            android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:scrollbars="none"
+
+              android:id="@+id/invest_list_more_detail_listview"
+            android:listSelector="@android:color/transparent"
+              android:divider="@drawable/split_line_project_more_detail"/>
+</RelativeLayout>
+
+
+</LinearLayout>

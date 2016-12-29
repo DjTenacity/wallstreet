@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-mdpi/btn_back.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-mdpi/btn_back.png"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-mdpi/lanyalianjie.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-mdpi/lanyalianjie.png"
+    },
+    {
+        "merged": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/build/intermediates/res/merged/debug/drawable-mdpi/back_checked.png",
+        "source": "/Users/yp-tc-m-2645/Desktop/AndroidProjects/wallstreet2/app/src/main/res/drawable-mdpi/back_checked.png"
+    }
+]

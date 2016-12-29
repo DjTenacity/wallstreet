@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/suggest"
+
+                android:layout_marginRight="2dp">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/page_title3"
+                    android:layout_alignParentTop="true">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#4ea9de"
+                  android:textSize="12sp"
+                  android:paddingTop="10dp"
+                  android:paddingLeft="10dp"
+                  android:layout_alignParentTop="true"
+                  android:id="@+id/recommend_title1"
+                  android:text="宜车贷 2016"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:visibility="invisible"
+                   android:src="@drawable/recommendnewicon"/>
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/page_title3"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textColor="#99333333"
+                      android:textSize="16sp"
+                      android:includeFontPadding="false"
+                      android:gravity="right|center_vertical"
+                      android:id="@+id/month_text"
+                      android:text="6个月"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="-10dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="45sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:id="@+id/progress_text"
+                      android:text="11"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="35sp"
+                      android:padding="0dp"
+                      android:visibility="gone"
+                      android:includeFontPadding="false"
+                      android:text=".5"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#4ea9de"
+                      android:textSize="25sp"
+                      android:padding="0dp"
+                      android:includeFontPadding="false"
+                      android:text="%"/>
+        </LinearLayout>
+        <ProgressBar android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="5dp"
+                     android:progress="80"
+                     android:id="@+id/progress"
+                     style="@style/gradient_progress"/>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="56px"
+                      android:gravity="center"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/full_cut_icon"/>
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:textColor="#999999"
+                      android:gravity="right"
+                      android:id="@+id/footer_text"
+                      android:text="剩余800.5万"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

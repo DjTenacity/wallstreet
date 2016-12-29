@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#ffffff">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+    <LinearLayout style="@style/bind_bank_card">
+        <FrameLayout android:layout_width="fill_parent"
+                     android:layout_height="fill_parent">
+            <LinearLayout style="@style/bind_bank_card_frame"
+                          android:visibility="gone"
+                          android:id="@+id/next_3"
+                          android:tag="输入验证码">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="验证码已发送至13423456789"
+                          android:textSize="18sp"
+                          android:textColor="#7e333333"/>
+                <EditText android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:background="@drawable/round_bg_gray"
+                          android:hint="短信验证码"
+                          android:textSize="16sp"
+                          android:textColor="#b5333333"
+                          android:textColorHint="#b5bebebe"
+                          android:paddingTop="10dp"
+                          android:paddingBottom="10dp"
+                          android:inputType="phone"
+                          android:maxLength="11"
+                          android:paddingLeft="6dp"
+                          android:id="@+id/message_examcode"/>
+                <Button android:layout_width="fill_parent"
+                        android:background="@drawable/bind_ok_not_activation_icon"
+
+                        android:id="@+id/bind_ok_btn"
+
+                        android:layout_height="45dp"
+                        android:layout_marginTop="40dp"
+                        android:enabled="false"/>
+            </LinearLayout>
+            <LinearLayout style="@style/bind_bank_card_frame"
+                          android:visibility="gone"
+                          android:id="@+id/next_2"
+                          android:tag="输入手机号">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="发卡银行：招商银行"
+                          android:textSize="18sp"
+                          android:textColor="#7e333333"/>
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:text="*请输入银行预留手机号"
+                          android:textSize="16sp"
+                          android:textColor="#b5333333"/>
+
+                <EditText android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:background="@drawable/round_bg_gray"
+                          android:hint="手机号"
+                          android:textSize="16sp"
+                          android:textColor="#b5333333"
+                          android:textColorHint="#b5bebebe"
+                          android:paddingTop="10dp"
+                          android:paddingBottom="10dp"
+                          android:inputType="phone"
+                          android:maxLength="11"
+                          android:paddingLeft="6dp"
+                        android:id="@+id/bank_card_telephoneNumber"/>
+                <Button android:layout_width="fill_parent"
+                        android:background="@drawable/send_examcode_not_activationicon"
+
+                        android:layout_height="wrap_content"
+                        android:id="@+id/send_exam_btn"
+                        android:layout_marginTop="20dp"
+                        android:enabled="false"/>
+            </LinearLayout>
+            <LinearLayout style="@style/bind_bank_card_frame"
+                          android:visibility="gone"
+                          android:id="@+id/next_1"
+                          android:tag="添加银行卡">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="*请绑定认证用户本人的储蓄卡"
+                          android:textSize="16sp"
+                          android:textColor="#ffff050a"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="20dp"
+                              android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="姓名：习德"
+                              android:textSize="18sp"
+                              android:textColor="#b5333333"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="身份证：610125198207218990"
+                              android:layout_marginTop="15dp"
+                              android:textSize="18sp"
+                              android:textColor="#b5333333"/>
+                </LinearLayout>
+                <EditText android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:background="@drawable/round_bg_gray"
+                          android:hint="银行卡号"
+                          android:textSize="16sp"
+                          android:textColor="#b5333333"
+                          android:textColorHint="#b5bebebe"
+                          android:paddingTop="10dp"
+                          android:paddingBottom="10dp"
+                          android:inputType="number"
+                          android:maxLength="18"
+                          android:paddingLeft="6dp"
+                        android:id="@+id/mybank_card_number"/>
+                <Button android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mybank_card_next_btn"
+                        android:background="@drawable/my_bankcard_not_activation_next"
+                        android:enabled="false"
+                        android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                          android:layout_width="fill_parent"
+                          android:orientation="vertical"
+                          android:id="@+id/recharge_layout1"
+                          >
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+            </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10">
+                    <com.yeepbank.android.widget.bankcardlist.SwipeMenuListView
+                            android:id="@+id/list_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="10dp"
+                              android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="＋"
+                              android:textSize="16sp"
+                              android:textColor="#b51924ff"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text="添加新银行卡"
+                              android:textSize="15sp"
+                              android:id="@+id/add_bank_card"
+                              android:paddingLeft="4dp"
+                              android:textColor="#7e333333"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

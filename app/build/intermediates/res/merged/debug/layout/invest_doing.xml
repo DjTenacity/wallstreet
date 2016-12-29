@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:tag="确认投资">
+<LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#3887BE"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="15dp"
+                  android:paddingBottom="15dp"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal|bottom"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="年利化率 "
+                      android:gravity="bottom"
+                      android:textColor="#ffffff"
+                      android:id="@+id/whitch_rate"
+                      android:textSize="14sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="12"
+                      android:textColor="#ffffff"
+                      android:id="@+id/annual_interest_rate"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="%"
+                      android:gravity="bottom"
+                      android:textColor="#ffffff"
+                      android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal|bottom"
+                      android:layout_weight="1">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="项目期限 "
+                      android:textColor="#ffffff"
+                      android:gravity="bottom"
+                      android:textSize="14sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="6"
+                      android:textColor="#ffffff"
+                      android:id="@+id/duration"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#ffffff"
+                      android:id="@+id/duration_unit"
+                      android:gravity="bottom"
+                      android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="0.5dip"
+          android:background="@drawable/accont_delete"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="center_horizontal|bottom"
+                  android:paddingTop="15dp"
+                  android:paddingBottom="15dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="剩余金额 "
+                  android:gravity="bottom"
+                  android:textColor="#ffffff"
+                  android:id="@+id/transfer_text"
+                  android:textSize="14sp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="3,500,000.00"
+                  android:textColor="#ffffff"
+                  android:gravity="bottom"
+                  android:id="@+id/residual_amount"
+                  android:includeFontPadding="false"
+                  android:textSize="20sp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="元"
+                  android:gravity="bottom"
+                  android:textColor="#ffffff"
+                  android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout style="@style/bind_bank_card_frame"
+              android:layout_margin="5dp">
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="45dp"
+                  android:gravity="right|center_vertical"
+                  android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="账户可用余额："
+                      android:gravity="left|center_vertical"
+                      android:textColor="@color/title"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:id="@+id/available_balance"
+                      android:gravity="left|center_vertical"
+                      android:textColor="@color/title"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:gravity="left|center_vertical"
+                      android:text="元"
+                      android:textColor="@color/title"/>
+        </LinearLayout>
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="7dp"
+
+                     android:id="@+id/recharge_btn"
+                     android:background="@drawable/recharge_btn_icon"/>
+
+    </LinearLayout>
+
+    <!--一般项目-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/belongs_to_norproject"
+                  android:visibility="visible"
+
+                  android:orientation="vertical">
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="right|center_vertical"
+                      android:background="@drawable/round_bg_gray"
+                      android:padding="2dp"
+                      android:layout_marginTop="10dp"
+                      android:orientation="horizontal">
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="45dp"
+                      android:hint="100元起投"
+                      android:layout_weight="1"
+                      android:inputType="number"
+                      android:digits="0123456789"
+                      android:gravity="left|center_vertical"
+                      android:paddingLeft="10dp"
+                      android:background="@null"
+                      android:textColor="#aa000000"
+                      android:textCursorDrawable="@drawable/pen"
+                      android:id="@+id/investment_amount"
+                      android:textColorHint="#c1c1c1"
+                    android:textSize="15sp"/>
+            <ImageButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/all_invest_btn"
+                         android:enabled="false"
+                         android:layout_marginRight="5dp"
+                         android:background="@drawable/all_invest_btn_not_activated_icon"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="45dp"
+                      android:gravity="right|center_vertical"
+                      android:background="@drawable/round_bg_gray"
+                      android:padding="2dp"
+                      android:layout_marginTop="10dp"
+                      android:id="@+id/tick_choose_layout"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="选择投资券"
+                      android:layout_weight="1"
+                      android:gravity="left|center_vertical"
+                      android:paddingLeft="10dp"
+                      android:background="@null"
+                      android:id="@+id/tick_description"
+                      android:textColor="#c3c3c3"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:id="@+id/open"
+                       android:paddingRight="5dp"
+                       android:visibility="gone"
+                       android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="35dp"
+                      android:paddingLeft="5dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="预计收益："
+                      android:gravity="center_vertical"
+                      android:textColor="@color/title"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="0.00"
+                      android:gravity="center_vertical"
+                      android:id="@+id/expected_return"
+                      android:textColor="#ffffa30d"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="元"
+                      android:gravity="center_vertical"
+                      android:textColor="@color/title"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="30dp"
+                      android:paddingLeft="5dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="实付金额："
+                      android:gravity="center_vertical"
+                      android:textColor="@color/title"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="0.00"
+                      android:id="@+id/paid_amount"
+                      android:gravity="center_vertical"
+                      android:textColor="@color/title"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="元"
+                      android:gravity="center_vertical"
+                      android:textColor="@color/title"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--转债-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:visibility="gone"
+                  android:id="@+id/belongs_to_trans_project"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="45dp"
+                      android:gravity="left|center_vertical"
+                      android:layout_marginTop="10dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="到期收益："
+                      android:gravity="left|center_vertical"
+                      android:background="@null"
+                      android:textColor="#c3c3c3"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:id="@+id/transfer_profit"
+                      android:gravity="left|center_vertical"
+                      android:background="@null"
+                      android:textColor="#ffff711c"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="元"
+                      android:gravity="left|center_vertical"
+                      android:background="@null"
+                      android:textColor="#c3c3c3"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="45dp"
+                      android:gravity="left|center_vertical"
+                      android:layout_marginTop="10dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="还款日期："
+                      android:gravity="left|center_vertical"
+                      android:background="@null"
+                      android:textColor="#c3c3c3"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:text="2015-11-25"
+                      android:id="@+id/transform_repayment_date"
+                      android:gravity="left|center_vertical"
+                      android:background="@null"
+                      android:textColor="#ff4f9dc1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="5dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="20dp"
+                  android:id="@+id/detail_layout"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="投资即确认"
+                          android:textColor="#999999"
+                          android:id="@+id/text_description"
+                          android:textSize="10sp"/>
+
+        <!--<LinearLayout android:layout_width="wrap_content"-->
+                      <!--android:layout_height="wrap_content"-->
+                      <!--android:id="@+id/grant_detail"-->
+                      <!--android:orientation="horizontal">-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="《"/>-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="授权委托书"/>-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="》"/>-->
+            <!--</LinearLayout>-->
+        <!--<LinearLayout android:layout_width="wrap_content"-->
+                      <!--android:layout_height="wrap_content"-->
+                      <!--android:id="@+id/risk_detail"-->
+                      <!--android:orientation="horizontal">-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="《"/>-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="项目风险告知书"/>-->
+                <!--<TextView android:layout_width="wrap_content"-->
+                          <!--android:layout_height="wrap_content"-->
+                          <!--android:textColor="#3887be"-->
+                          <!--android:textSize="10sp"-->
+                          <!--android:text="》"/>-->
+            <!--</LinearLayout>-->
+    </LinearLayout>
+    <Button android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/round_bg_blue_fill_blue"
+            android:text="确认投资"
+            android:id="@+id/sure_invest"
+            android:textColor="#ffffff"/>
+
+
+</LinearLayout>
+</LinearLayout>

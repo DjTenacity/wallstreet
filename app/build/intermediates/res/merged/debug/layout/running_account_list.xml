@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:paddingBottom="15dp"
+                android:background="#ffececec">
+                <include layout="@layout/action_bar" android:id="@id/navigation_bar"/>
+                <com.yeepbank.android.widget.ChangeItemWithAnimationLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/navigation_item"
+                        android:layout_below="@+id/navigation_bar"
+                        android:background="@drawable/round_bg_radius_big_gray"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        app:pageStyle="0x111111"/>
+                        <FrameLayout android:layout_width="fill_parent"
+                                     android:layout_height="fill_parent"
+                                     android:background="@drawable/detail_card"
+                                     android:layout_below="@+id/triangle"
+                                     android:layout_marginTop="-2dp"
+                                     android:padding="2dp"
+                                     android:layout_marginLeft="5dp"
+                                     android:layout_marginRight="5dp">
+                            <com.yeepbank.android.widget.view.XListView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:scrollbars="none"
+                                    app:push="true"
+
+                                    android:id="@+id/running_account_list_withdraw"
+                                    android:visibility="gone"/>
+                                    <com.yeepbank.android.widget.view.XListView
+                                            android:layout_width="fill_parent"
+                                              android:layout_height="fill_parent"
+                                            android:scrollbars="none"
+                                            app:push="true"
+
+                                            android:id="@+id/running_account_list_recharge"/>
+                            <TextView
+                                android:id="@+id/no_recharge_data"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:text="你还没有充值过!" />
+                            <TextView
+                                    android:id="@+id/no_withdraw_data"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:text="你还没有提现过"
+                                    android:visibility="gone"/>
+                        </FrameLayout>
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/triangle"
+                           android:layout_marginLeft="5dp"
+                           android:layout_below="@+id/navigation_item"
+                           android:src="@drawable/choose_triangle"/>
+
+</RelativeLayout>

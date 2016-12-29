@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fff0f0f0">
+    <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="35dp"
+                              android:text="欢迎,"
+                              android:textSize="14sp"
+                              android:gravity="center_vertical"
+                              android:textColor="#999999"
+                              android:id="@+id/welcome"
+                              android:paddingLeft="20dp"/>
+
+                    <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:paddingLeft="10dp"
+                                  android:paddingRight="10dp"
+                                  android:id="@+id/account_and_security"
+                                android:background="#ffffff">
+                            <com.yeepbank.android.widget.LayoutInSetting
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/account_and_security_content"
+                                    app:f_text="账号与安全"
+                                    app:draw_left="@null"/>
+                    </LinearLayout>
+
+
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:background="#d0d0d0"/>
+
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="35dp"
+                          android:layout_marginTop="15dp"
+                          android:text="推送消息设置"
+                          android:textSize="14sp"
+                          android:gravity="left|center_vertical"
+                          android:textColor="#999999"
+                          android:paddingLeft="20dp"/>
+
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:background="#d0d0d0"/>
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/slipBtn"
+                          android:orientation="vertical">
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="45dp"
+                              android:orientation="horizontal"
+                              android:gravity="right|center_vertical"
+                              android:paddingRight="15dp"
+                              android:paddingLeft="10dp"
+                              android:background="#ffffff">
+                        <!--<TextView android:layout_width="wrap_content"-->
+                                  <!--android:layout_height="fill_parent"-->
+                                  <!--android:layout_weight="1"-->
+                                  <!--android:text="接收新消息通知"-->
+                                  <!--android:textSize="15sp"-->
+                                  <!--android:gravity="left|center_vertical"-->
+                                  <!--android:textColor="#666666"-->
+                                  <!--android:paddingLeft="10dp"/>-->
+
+                <com.yeepbank.android.widget.LayoutInSetting
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        app:f_text="接收新消息通知"
+                        app:draw_left="@null"/>
+
+            </LinearLayout>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:layout_marginBottom="20dp"
+                  android:background="#d0d0d0"/>
+
+                <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:background="#d0d0d0"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+
+                              android:id="@+id/advice_feedback"
+                              android:background="#ffffff">
+                    <com.yeepbank.android.widget.LayoutInSetting
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:f_text="意见反馈"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            app:draw_left="@null"/>
+                </LinearLayout>
+ <!--
+                <View android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                      android:layout_marginLeft="10dp"
+                        android:background="#d0d0d0"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:paddingLeft="10dp"
+                              android:background="#ffffff">
+                    <com.yeepbank.android.widget.LayoutInSetting
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:f_text="评价易宝金融"
+                            app:draw_left="@null"/>
+                </LinearLayout>
+  -->
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1px"
+                      android:layout_marginLeft="10dp"
+                      android:background="#d0d0d0"/>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:paddingLeft="10dp"
+                              android:paddingRight="10dp"
+                              android:id="@+id/about"
+                              android:background="#ffffff">
+                    <com.yeepbank.android.widget.LayoutInSetting
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:f_text="关于易宝金融"
+                            app:draw_left="@null"/>
+                </LinearLayout>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="1px"
+                  android:background="#d0d0d0"/>
+            <!--<LinearLayout android:layout_width="fill_parent"-->
+                          <!--android:layout_height="30dp"-->
+                          <!--android:background="#ffffff"-->
+                        <!--android:orientation="horizontal">-->
+                <!--<TextView android:layout_width="0dp"-->
+                          <!--android:layout_height="fill_parent"-->
+                          <!--android:gravity="center"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="设置服务器地址"-->
+                        <!--android:textColor="#666666"-->
+                        <!--android:textSize="14sp"/>-->
+                <!--<Spinner android:layout_width="0dp"-->
+                         <!--android:layout_height="fill_parent"-->
+                         <!--android:layout_weight="3"-->
+                         <!--android:background="#ffffff"-->
+                         <!--android:id="@+id/setting_url"-->
+                         <!--android:visibility="gone"-->
+                         <!--android:entries="@array/server_url"/>-->
+            <!--</LinearLayout>-->
+
+
+                <Button  android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="15dp"
+                         android:layout_marginRight="15dp"
+                         android:layout_marginTop="40dp"
+                         android:background="@drawable/exit_current_account_btn_icon"
+                         android:id="@+id/re_btn"/>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

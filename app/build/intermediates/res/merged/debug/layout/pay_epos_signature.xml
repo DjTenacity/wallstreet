@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <cn.com.kuaishua.sdk.base.ActionBarTextView
+        android:id="@+id/wallteActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_layout_height" >
+    </cn.com.kuaishua.sdk.base.ActionBarTextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="金额"
+                    android:textColor="#A2A2A2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/payMoney"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="1000.11"
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="请顾客用手指在此签名"
+                android:textColor="#A2A2A2"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_width"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/tablet_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:padding="1dip" >
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/paymoneytext"
+                    style="@style/FontStyle_14sp_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="本人确认以上交易,同意将其计入本卡账户" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp" >
+
+                <cn.com.kuaishua.sdk.util.CustomColorsButton
+                    android:id="@+id/tablet_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/actionbar_layout_height"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_delete_qian"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:longClickable="true"
+                    android:onClick="okClick"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="确认支付"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

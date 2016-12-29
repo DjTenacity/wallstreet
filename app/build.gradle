@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.yeepbank.android"
+        minSdkVersion 19
+        targetSdkVersion 22
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a','mips'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/GetuiExt-2.0.3.jar')
+    compile files('libs/GetuiSDK2.8.1.0.jar')
+    compile files('libs/Java-WebSocket-1.3.1-SNAPSHOT.jar')
+    compile files('libs/jackson-annotations-2.2.3.jar')
+    compile files('libs/jackson-core-2.2.3.jar')
+    compile files('libs/jackson-databind-2.2.3.jar')
+    compile files('libs/jackson-mapper-asl-1.9.13.jar')
+    compile files('libs/kspaysdkrelease2.2.0.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/locSDK_3.1.jar')
+    compile files('libs/mpchartlib.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/pushservice-4.5.3.48.jar')
+    compile files('libs/sun.misc.BASE64Decoder.jar')
+    compile files('libs/universal-image-loader-1.8.6-with-sources.jar')
+    compile files('libs/volley-1.0-SNAPSHOT.jar')
+}

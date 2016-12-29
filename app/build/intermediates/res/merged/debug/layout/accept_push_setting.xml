@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:orientation="vertical"
+              android:background="#f8f8f8"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+            <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="10dp"
+                                  android:layout_marginBottom="20dp"
+                                  android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:orientation="horizontal"
+                                      android:gravity="right|center_vertical"
+                                      android:paddingRight="15dp"
+                                      android:paddingLeft="10dp"
+                                      android:background="#ffffff">
+                            <TextView style="@style/push_words_style"
+                                      android:text="接收新消息通知"/>
+
+
+                            <com.yeepbank.android.widget.SwitchBtn
+                                    android:id = "@+id/accept_all_btn"
+                                    android:layout_width="50dp"
+                                    android:layout_height="24dp"
+                                    app:btn_name="@string/ACCESS_ALL"
+                                    app:is_open="true"/>
+                        </LinearLayout>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:orientation="horizontal"
+                                      android:gravity="right|center_vertical"
+                                      android:paddingRight="15dp"
+                                      android:paddingLeft="10dp"
+                                      android:background="#ffffff">
+                            <TextView style="@style/push_words_style"
+                                      android:text="新项目发布通知"/>
+
+
+                            <com.yeepbank.android.widget.SwitchBtn
+                                    android:id = "@+id/new_project_btn"
+                                    android:layout_width="50dp"
+                                    android:layout_height="24dp"
+                                    app:btn_name="@string/ACCESS_NEW_PROJECT"
+                                    app:is_open="true"/>
+                        </LinearLayout>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <TextView style="@style/push_style_setting"
+                                  android:text="@string/new_project_push"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:orientation="horizontal"
+                                      android:gravity="right|center_vertical"
+                                      android:paddingRight="15dp"
+                                      android:paddingLeft="10dp"
+                                      android:background="#ffffff">
+                            <TextView style="@style/push_words_style"
+                                      android:text="充值提现通知"/>
+
+
+                            <com.yeepbank.android.widget.SwitchBtn
+                                    android:id = "@+id/withdraw_and_purcharge_btn"
+                                    android:layout_width="50dp"
+                                    android:layout_height="24dp"
+                                    app:btn_name="@string/ACCESS_DEPOSIT"
+                                    app:is_open="true"/>
+                        </LinearLayout>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <TextView style="@style/push_style_setting"
+                                  android:text="@string/withdraw_purcharge_push"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:orientation="horizontal"
+                                      android:gravity="right|center_vertical"
+                                      android:paddingRight="15dp"
+                                      android:paddingLeft="10dp"
+                                      android:background="#ffffff">
+                            <TextView style="@style/push_words_style"
+                                      android:text="投资项目结标/还款通知"/>
+
+
+                            <com.yeepbank.android.widget.SwitchBtn
+                                    android:id = "@+id/invest_reapy_btn"
+                                    android:layout_width="50dp"
+                                    android:layout_height="24dp"
+                                    app:btn_name="@string/ACCESS_BIDDING"
+                                    app:is_open="true"/>
+                        </LinearLayout>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <TextView style="@style/push_style_setting"
+                                  android:text="@string/invest_repay_push"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="45dp"
+                                      android:orientation="horizontal"
+                                      android:gravity="right|center_vertical"
+                                      android:paddingRight="15dp"
+                                      android:paddingLeft="10dp"
+                                      android:background="#ffffff">
+                            <TextView style="@style/push_words_style"
+                                      android:text="新增投资券通知"/>
+
+
+                            <com.yeepbank.android.widget.SwitchBtn
+                                    android:id = "@+id/add_invest_tick_btn"
+                                    android:layout_width="50dp"
+                                    android:layout_height="24dp"
+                                    app:btn_name="@string/ACCESS_GRANT_COUPON"
+                                    app:is_open="true"/>
+                        </LinearLayout>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <TextView style="@style/push_style_setting"
+                                  android:text="@string/add_invest_tick_push"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+    </LinearLayout>

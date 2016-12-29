@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.yeepbank.android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/account_bg_daily_increast">
+            <include layout="@layout/action_bar" android:id="@+id/navigation_bar"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/title_panel"
+                            android:paddingBottom="10dp">
+                            <RelativeLayout android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-10dp">
+                                <ImageView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/curve_line"
+                                        android:src="@drawable/clip_curve_line_daily"/>
+                                <ImageView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/curve_word1"
+                                        android:layout_marginTop="115dp"
+                                        android:layout_marginLeft="-90dp"
+                                        android:src="@drawable/clip_word1"/>
+                                <ImageView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="75dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:id="@+id/curve_word2"
+                                        android:src="@drawable/clip_word2"/>
+                                <ImageView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/curve_word3"
+                                        android:layout_marginTop="32dp"
+                                        android:layout_marginLeft="145dp"
+                                        android:src="@drawable/clip_word3"/>
+                            </RelativeLayout>
+
+                            <LinearLayout android:layout_width="fill_parent"
+                                          android:layout_height="120dp"
+                                          android:layout_alignParentBottom="true"
+                                          android:gravity="bottom"
+                                        android:orientation="vertical">
+                                    <LinearLayout android:layout_width="fill_parent"
+                                                  android:layout_height="wrap_content"
+                                                  android:gravity="center_horizontal|bottom"
+                                                android:orientation="horizontal">
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="fill_parent"
+                                                  android:textColor="#ffffff"
+                                                  android:text="高达"
+                                                  android:gravity="top"
+                                                  android:paddingTop="14dp"
+                                                  android:layout_marginRight="2dp"
+                                                  android:includeFontPadding="false"
+                                                  android:textSize="15sp"/>
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:textColor="#ffffff"
+                                                  android:gravity="bottom"
+                                                  android:includeFontPadding="false"
+                                                  android:id="@+id/percent_integer"
+                                                  android:textSize="80sp"/>
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:textColor="#ffffff"
+                                                  android:gravity="center_horizontal|bottom"
+                                                  android:includeFontPadding="false"
+                                                  android:id="@+id/percent_decimal"
+                                                  android:textSize="55sp"/>
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:text="%"
+                                                  android:includeFontPadding="false"
+                                                  android:textColor="#ffffff"
+                                                  android:textSize="30sp"/>
+                                    </LinearLayout>
+                                    <LinearLayout android:layout_width="fill_parent"
+                                                  android:layout_height="wrap_content"
+                                                  android:gravity="center_horizontal"
+                                                  android:id="@+id/everyday_profit"
+                                                  android:orientation="horizontal">
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                android:text="万元每日收益"
+                                                android:textColor="#ffffff"
+                                                  android:includeFontPadding="false"
+                                                android:textSize="15sp"/>
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:textColor="#ffffff"
+                                                  android:id="@+id/everyday_profit_get"
+                                                  android:includeFontPadding="false"
+                                                  android:textSize="25sp"/>
+                                        <TextView android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:includeFontPadding="false"
+                                                  android:text="元"
+                                                  android:textColor="#ffffff"
+                                                  android:textSize="15sp"/>
+                                    </LinearLayout>
+                            </LinearLayout>
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="1">
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="fill_parent"
+                                  android:id="@+id/buy_and_turn_out"
+                                android:visibility="gone">
+                        <include layout="@layout/dailyincrease_buy_and_turn_out"
+                                 android:layout_width="fill_parent"
+                                 android:layout_height="fill_parent"/>
+                    </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:id="@+id/init_page">
+                        <include layout="@layout/daily_increase_init_page"
+                                 android:layout_width="fill_parent"
+                                 android:layout_height="fill_parent"/>
+                </LinearLayout>
+            </FrameLayout>
+
+
+</LinearLayout>

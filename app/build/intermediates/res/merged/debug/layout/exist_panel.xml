@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:background="#aa000000">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#c1c1c1"
+                  android:id="@+id/exist_panel"
+                android:layout_alignParentBottom="true">
+                <LinearLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#ffffff">
+                        <TextView android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="退出后不会删除任何数据,下次登录依然可以使用本账号"
+                                android:textColor="#c1c1c1"
+                                android:gravity="center"
+                                  android:padding="10dp"
+                                android:textSize="14sp"/>
+                        <View android:layout_width="fill_parent"
+                              android:layout_height="1px"
+                              android:background="#d0d0d0"/>
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="50dp"
+                                android:text="退出登录"
+                                android:textSize="22sp"
+                                android:textColor="#ffff1610"
+                                android:gravity="center"/>
+                </LinearLayout>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="50dp"
+                          android:layout_marginTop="10dp"
+                          android:background="#fff"
+                          android:text="取消"
+                          android:textSize="22sp"
+                          android:textColor="#000000"
+                          android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
